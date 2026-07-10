@@ -1,3 +1,5 @@
 *.csv,
 *.db,
-*.png
+*.png,
+Key.py,
+LICENCE

@@ -76,3 +76,11 @@ Power BI — connects to the gold layer to build metrics and dashboards.
 ## Tech Stack
 
 Python (scraping) · SQL (transformations) · Power BI (visualization) · Git/GitHub
+
+## Requirements
+
+Numpy, pandas 
+
+## Data
+
+WebScrapped From: https://br.volleyballworld.com/
