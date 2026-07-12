@@ -3582,10 +3582,10 @@
       "start_time": "2026-06-03"
     },
     "status": {
-      "type": "live",
-      "reason": "2nd set"
+      "type": "finished",
+      "reason": "Ended"
     },
-    "status_type": "live",
+    "status_type": "finished",
     "home_team_id": 35557,
     "home_team_name": "Bulgaria",
     "home_team_hash_image": "bf140ea5389a4fd9de5d78a90934b3447e3babfd0985f13a32a55ed7c488e6be",
@@ -3596,16 +3596,18 @@
       "current": 0,
       "display": 0,
       "period_1": 20,
-      "period_2": 1
+      "period_2": 20,
+      "period_3": 15
     },
     "away_team_score": {
-      "current": 1,
-      "display": 1,
+      "current": 2,
+      "display": 2,
       "period_1": 25,
-      "period_2": 0
+      "period_2": 25,
+      "period_3": 24
     },
     "times": {
-      "specific_start_time": "2026-07-12T14:57:17+00:00"
+      "specific_start_time": "2026-07-12T15:56:21+00:00"
     },
     "start_time": "2026-07-12T14:30:00+00:00",
     "duration": 9000,
@@ -4014,16 +4016,33 @@
       "start_time": "2026-06-03"
     },
     "status": {
-      "type": "upcoming",
-      "reason": "Not started"
+      "type": "finished",
+      "reason": "Ended"
     },
-    "status_type": "upcoming",
+    "status_type": "finished",
     "home_team_id": 10507,
     "home_team_name": "Serbia",
     "home_team_hash_image": "ef411696dfef17f57cea5814f297121dd01293795891877391ffd7e99fc98dd4",
     "away_team_id": 17896,
     "away_team_name": "Netherlands",
     "away_team_hash_image": "08f07df9a57a47b85438b8ad0082915646970dacd9d2718b6356fb882cafd589",
+    "home_team_score": {
+      "current": 2,
+      "display": 2,
+      "period_1": 25,
+      "period_2": 25,
+      "period_3": 24
+    },
+    "away_team_score": {
+      "current": 0,
+      "display": 0,
+      "period_1": 23,
+      "period_2": 19,
+      "period_3": 15
+    },
+    "times": {
+      "specific_start_time": "2026-07-12T19:04:16+00:00"
+    },
     "start_time": "2026-07-12T18:00:00+00:00",
     "duration": 9000,
     "class_id": 50,

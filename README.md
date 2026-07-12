@@ -79,7 +79,7 @@ Python (scraping) · SQL (transformations) · Power BI (visualization) · Git/Gi
 
 ## Requirements
 
-Numpy, pandas, requests
+Numpy, pandas, requests, sqlalchemy
 
 ## Data
 

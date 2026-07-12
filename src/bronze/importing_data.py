@@ -19,7 +19,6 @@
 import json
 import time
 from pathlib import Path
-
 import requests
 from Key import key
 
@@ -34,7 +33,7 @@ SEASON_ID = 103 # This is the id for the 2026 season of VNL
 PAGE_LIMIT = 50
 SLEEP = 0.1  # The API has a bit of limitation, so I added a limit between the requisitions
 
-OUT_DIR = Path("../data/bronze/")
+OUT_DIR = Path("../../data/bronze/")
 OUT_DIR.mkdir(exist_ok=True)
 
 
@@ -177,4 +176,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-# %%
