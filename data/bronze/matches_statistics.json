@@ -1,0 +1,1147 @@
+[
+  {
+    "match_id": 201294,
+    "statistics": [
+      {
+        "type": "Aces",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "3"
+      },
+      {
+        "type": "Aces",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "1"
+      },
+      {
+        "type": "Aces",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "2",
+        "home_team": "0"
+      },
+      {
+        "type": "Aces",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "1"
+      },
+      {
+        "type": "Aces",
+        "period": "5TH",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "0"
+      },
+      {
+        "type": "Aces",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "5"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "2",
+        "home_team": "3"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "4",
+        "home_team": "4"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "3"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "3"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "5TH",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "3"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "4",
+        "home_team": "4"
+      },
+      {
+        "type": "Points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "17",
+        "home_team": "25"
+      },
+      {
+        "type": "Points won",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "25",
+        "home_team": "19"
+      },
+      {
+        "type": "Points won",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "25",
+        "home_team": "18"
+      },
+      {
+        "type": "Points won",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "22",
+        "home_team": "25"
+      },
+      {
+        "type": "Points won",
+        "period": "5TH",
+        "category": "Attacking",
+        "away_team": "17",
+        "home_team": "15"
+      },
+      {
+        "type": "Points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "106",
+        "home_team": "102"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "14/24 (58%)",
+        "home_team": "15/18 (83%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "14/20 (70%)",
+        "home_team": "13/24 (54%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "14/18 (78%)",
+        "home_team": "14/25 (56%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "17/25 (68%)",
+        "home_team": "17/22 (77%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "5TH",
+        "category": "Attacking",
+        "away_team": "13/16 (81%)",
+        "home_team": "12/16 (75%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "72/103 (70%)",
+        "home_team": "71/105 (68%)"
+      },
+      {
+        "type": "Service errors",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "1"
+      },
+      {
+        "type": "Service errors",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "6",
+        "home_team": "2"
+      },
+      {
+        "type": "Service errors",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "2",
+        "home_team": "3"
+      },
+      {
+        "type": "Service errors",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "3"
+      },
+      {
+        "type": "Service errors",
+        "period": "5TH",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "2"
+      },
+      {
+        "type": "Service errors",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "13",
+        "home_team": "11"
+      },
+      {
+        "type": "Service points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "3/18 (17%)",
+        "home_team": "10/24 (42%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "11/24 (46%)",
+        "home_team": "6/20 (30%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "11/25 (44%)",
+        "home_team": "4/18 (22%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "5/22 (23%)",
+        "home_team": "8/25 (32%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "5TH",
+        "category": "Attacking",
+        "away_team": "4/16 (25%)",
+        "home_team": "3/16 (19%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "34/105 (32%)",
+        "home_team": "31/103 (30%)"
+      },
+      {
+        "type": "Timeouts",
+        "period": "1ST",
+        "category": "Other",
+        "away_team": "2",
+        "home_team": "0"
+      },
+      {
+        "type": "Timeouts",
+        "period": "2ND",
+        "category": "Other",
+        "away_team": "2",
+        "home_team": "1"
+      },
+      {
+        "type": "Timeouts",
+        "period": "3RD",
+        "category": "Other",
+        "away_team": "1",
+        "home_team": "2"
+      },
+      {
+        "type": "Timeouts",
+        "period": "4TH",
+        "category": "Other",
+        "away_team": "1",
+        "home_team": "1"
+      },
+      {
+        "type": "Timeouts",
+        "period": "5TH",
+        "category": "Other",
+        "away_team": "2",
+        "home_team": "2"
+      },
+      {
+        "type": "Timeouts",
+        "period": "ALL",
+        "category": "Other",
+        "away_team": "8",
+        "home_team": "6"
+      }
+    ]
+  },
+  {
+    "match_id": 201304,
+    "statistics": [
+      {
+        "type": "Aces",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "0"
+      },
+      {
+        "type": "Aces",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "1"
+      },
+      {
+        "type": "Aces",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "1"
+      },
+      {
+        "type": "Aces",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "0"
+      },
+      {
+        "type": "Aces",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "2"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "5"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "4"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "6"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "4",
+        "home_team": "8"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "4",
+        "home_team": "8"
+      },
+      {
+        "type": "Points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "25",
+        "home_team": "23"
+      },
+      {
+        "type": "Points won",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "18",
+        "home_team": "25"
+      },
+      {
+        "type": "Points won",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "11",
+        "home_team": "25"
+      },
+      {
+        "type": "Points won",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "15",
+        "home_team": "22"
+      },
+      {
+        "type": "Points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "69",
+        "home_team": "95"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "14/23 (61%)",
+        "home_team": "14/25 (56%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "13/25 (52%)",
+        "home_team": "13/18 (72%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "11/24 (46%)",
+        "home_team": "12/12 (100%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "8/23 (35%)",
+        "home_team": "7/14 (50%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "46/95 (48%)",
+        "home_team": "46/69 (67%)"
+      },
+      {
+        "type": "Service errors",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "4"
+      },
+      {
+        "type": "Service errors",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "2",
+        "home_team": "6"
+      },
+      {
+        "type": "Service errors",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "2"
+      },
+      {
+        "type": "Service errors",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "2"
+      },
+      {
+        "type": "Service errors",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "7",
+        "home_team": "14"
+      },
+      {
+        "type": "Service points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "11/25 (44%)",
+        "home_team": "9/23 (39%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "5/18 (28%)",
+        "home_team": "12/25 (48%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "0/12 (0%)",
+        "home_team": "13/24 (54%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "7/14 (50%)",
+        "home_team": "15/23 (65%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "23/69 (33%)",
+        "home_team": "49/95 (52%)"
+      },
+      {
+        "type": "Timeouts",
+        "period": "1ST",
+        "category": "Other",
+        "away_team": "2",
+        "home_team": "2"
+      },
+      {
+        "type": "Timeouts",
+        "period": "2ND",
+        "category": "Other",
+        "away_team": "2",
+        "home_team": "0"
+      },
+      {
+        "type": "Timeouts",
+        "period": "3RD",
+        "category": "Other",
+        "away_team": "2",
+        "home_team": "0"
+      },
+      {
+        "type": "Timeouts",
+        "period": "4TH",
+        "category": "Other",
+        "away_team": "2",
+        "home_team": "1"
+      },
+      {
+        "type": "Timeouts",
+        "period": "ALL",
+        "category": "Other",
+        "away_team": "8",
+        "home_team": "3"
+      }
+    ]
+  },
+  {
+    "match_id": 201315,
+    "statistics": [
+      {
+        "type": "Aces",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "1"
+      },
+      {
+        "type": "Aces",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "1"
+      },
+      {
+        "type": "Aces",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "3"
+      },
+      {
+        "type": "Aces",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "5"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "5",
+        "home_team": "4"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "4",
+        "home_team": "3"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "3"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "5",
+        "home_team": "4"
+      },
+      {
+        "type": "Points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "25",
+        "home_team": "22"
+      },
+      {
+        "type": "Points won",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "25",
+        "home_team": "18"
+      },
+      {
+        "type": "Points won",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "12",
+        "home_team": "11"
+      },
+      {
+        "type": "Points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "62",
+        "home_team": "51"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "13/23 (57%)",
+        "home_team": "12/24 (50%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "13/18 (72%)",
+        "home_team": "13/25 (52%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "8/12 (67%)",
+        "home_team": "7/11 (64%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "34/53 (64%)",
+        "home_team": "32/60 (53%)"
+      },
+      {
+        "type": "Service errors",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "2",
+        "home_team": "1"
+      },
+      {
+        "type": "Service errors",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "3"
+      },
+      {
+        "type": "Service errors",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "2",
+        "home_team": "2"
+      },
+      {
+        "type": "Service errors",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "7",
+        "home_team": "6"
+      },
+      {
+        "type": "Service points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "12/24 (50%)",
+        "home_team": "10/23 (43%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "12/25 (48%)",
+        "home_team": "5/18 (28%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "4/11 (36%)",
+        "home_team": "4/12 (33%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "28/60 (47%)",
+        "home_team": "19/53 (36%)"
+      },
+      {
+        "type": "Timeouts",
+        "period": "1ST",
+        "category": "Other",
+        "away_team": "1",
+        "home_team": "2"
+      },
+      {
+        "type": "Timeouts",
+        "period": "2ND",
+        "category": "Other",
+        "away_team": "1",
+        "home_team": "2"
+      },
+      {
+        "type": "Timeouts",
+        "period": "3RD",
+        "category": "Other",
+        "away_team": "1",
+        "home_team": "0"
+      },
+      {
+        "type": "Timeouts",
+        "period": "ALL",
+        "category": "Other",
+        "away_team": "3",
+        "home_team": "4"
+      }
+    ]
+  },
+  {
+    "match_id": 203096,
+    "statistics": [
+      {
+        "type": "Aces",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "3"
+      },
+      {
+        "type": "Aces",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "2"
+      },
+      {
+        "type": "Aces",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "1"
+      },
+      {
+        "type": "Aces",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "0"
+      },
+      {
+        "type": "Aces",
+        "period": "5TH",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "1"
+      },
+      {
+        "type": "Aces",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "6",
+        "home_team": "7"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "4",
+        "home_team": "4"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "5",
+        "home_team": "4"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "4",
+        "home_team": "3"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "3"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "5TH",
+        "category": "Attacking",
+        "away_team": "4",
+        "home_team": "3"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "9",
+        "home_team": "4"
+      },
+      {
+        "type": "Points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "29",
+        "home_team": "27"
+      },
+      {
+        "type": "Points won",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "25",
+        "home_team": "20"
+      },
+      {
+        "type": "Points won",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "23",
+        "home_team": "25"
+      },
+      {
+        "type": "Points won",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "28",
+        "home_team": "30"
+      },
+      {
+        "type": "Points won",
+        "period": "5TH",
+        "category": "Attacking",
+        "away_team": "10",
+        "home_team": "7"
+      },
+      {
+        "type": "Points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "115",
+        "home_team": "109"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "17/27 (63%)",
+        "home_team": "17/29 (59%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "13/21 (62%)",
+        "home_team": "12/24 (50%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "15/24 (63%)",
+        "home_team": "16/24 (67%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "19/30 (63%)",
+        "home_team": "19/28 (68%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "5TH",
+        "category": "Attacking",
+        "away_team": "4/7 (57%)",
+        "home_team": "4/10 (40%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "68/109 (62%)",
+        "home_team": "68/115 (59%)"
+      },
+      {
+        "type": "Service errors",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "3",
+        "home_team": "5"
+      },
+      {
+        "type": "Service errors",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "4",
+        "home_team": "3"
+      },
+      {
+        "type": "Service errors",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "2",
+        "home_team": "5"
+      },
+      {
+        "type": "Service errors",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "2",
+        "home_team": "5"
+      },
+      {
+        "type": "Service errors",
+        "period": "5TH",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "2"
+      },
+      {
+        "type": "Service errors",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "11",
+        "home_team": "20"
+      },
+      {
+        "type": "Service points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "12/29 (41%)",
+        "home_team": "10/27 (37%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "2ND",
+        "category": "Attacking",
+        "away_team": "12/24 (50%)",
+        "home_team": "8/21 (38%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "3RD",
+        "category": "Attacking",
+        "away_team": "8/24 (33%)",
+        "home_team": "9/24 (38%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "4TH",
+        "category": "Attacking",
+        "away_team": "9/28 (32%)",
+        "home_team": "11/30 (37%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "5TH",
+        "category": "Attacking",
+        "away_team": "6/10 (60%)",
+        "home_team": "3/7 (43%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "47/115 (41%)",
+        "home_team": "41/109 (38%)"
+      },
+      {
+        "type": "Timeouts",
+        "period": "1ST",
+        "category": "Other",
+        "away_team": "2",
+        "home_team": "2"
+      },
+      {
+        "type": "Timeouts",
+        "period": "2ND",
+        "category": "Other",
+        "away_team": "2",
+        "home_team": "2"
+      },
+      {
+        "type": "Timeouts",
+        "period": "3RD",
+        "category": "Other",
+        "away_team": "2",
+        "home_team": "2"
+      },
+      {
+        "type": "Timeouts",
+        "period": "4TH",
+        "category": "Other",
+        "away_team": "2",
+        "home_team": "2"
+      },
+      {
+        "type": "Timeouts",
+        "period": "5TH",
+        "category": "Other",
+        "away_team": "0",
+        "home_team": "1"
+      },
+      {
+        "type": "Timeouts",
+        "period": "ALL",
+        "category": "Other",
+        "away_team": "8",
+        "home_team": "9"
+      }
+    ]
+  },
+  {
+    "match_id": 203151,
+    "statistics": [
+      {
+        "type": "Aces",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "0"
+      },
+      {
+        "type": "Aces",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "0"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "0"
+      },
+      {
+        "type": "Max points in a row",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "0"
+      },
+      {
+        "type": "Points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "0"
+      },
+      {
+        "type": "Points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "1",
+        "home_team": "0"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "1/1 (100%)",
+        "home_team": "0/0 (0%)"
+      },
+      {
+        "type": "Receiver points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "1/1 (100%)",
+        "home_team": "0/0 (0%)"
+      },
+      {
+        "type": "Service errors",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "0"
+      },
+      {
+        "type": "Service errors",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "0",
+        "home_team": "0"
+      },
+      {
+        "type": "Service points won",
+        "period": "1ST",
+        "category": "Attacking",
+        "away_team": "0/0 (0%)",
+        "home_team": "0/1 (0%)"
+      },
+      {
+        "type": "Service points won",
+        "period": "ALL",
+        "category": "Attacking",
+        "away_team": "0/0 (0%)",
+        "home_team": "0/1 (0%)"
+      },
+      {
+        "type": "Timeouts",
+        "period": "ALL",
+        "category": "Other",
+        "away_team": "0",
+        "home_team": "0"
+      }
+    ]
+  }
+]
