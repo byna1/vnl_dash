@@ -8,7 +8,7 @@ import os
 
 print("Creating conection with db...")
 
-engine = "sqlite:///../../data/bronze/bronze_matches.db"
+engine = "sqlite:///../../data/bronze/db_bronze.db"
 
 con = sql.create_engine(engine)
 
