@@ -84,3 +84,10 @@ Numpy, pandas, requests, sqlalchemy, json
 ## Data
 
 WebScrapped From: https://br.volleyballworld.com/
+
+
+## Schema
+
+players ──┐
+          ├── players_by_team ── teams ──┬── (home_team_id) ── match_info ── match_statistics
+          ┘                              └── (away_team_id) ──┘

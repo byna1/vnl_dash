@@ -58,14 +58,6 @@ def renaming_columns(df, columns_to_rename: dict | None = None):
     return df
 
 # %%
-
-def save_db_silver(table_to_save,table_name):
-    engine_silver = 'sqlite:///../../data/silver/db_silver.db'
-    con_silver = sql.create_engine(engine_silver)
-    table_to_save.to_sql(table_name, con=con_silver, if_exists='replace', index=False)
-    print(f"Table {table_name} saved in db_silver.db! :)")
-
-# %%
 def json_column_expand(table,column:str):
 
     table[column] = table[column].apply(json.loads)
@@ -80,5 +72,14 @@ def json_column_expand(table,column:str):
         axis=1
     )
     return result
+
+# %%
+
+def save_db_silver(table_to_save,table_name):
+    engine_silver = 'sqlite:///../../data/silver/db_silver.db'
+    con_silver = sql.create_engine(engine_silver)
+    table_to_save.to_sql(table_name, con=con_silver, if_exists='replace', index=False)
+    print(f"Table {table_name} saved in db_silver.db! :)")
+
 
 

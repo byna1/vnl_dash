@@ -1,0 +1,66 @@
+[
+  {
+    "id": 103,
+    "name": "Nations League, Women 2026",
+    "year": "2026",
+    "start_time": "2026-06-06",
+    "league_id": 75,
+    "league_name": "Nations League - Women"
+  },
+  {
+    "id": 185,
+    "name": "Nations League, Women 2025",
+    "year": "2025",
+    "start_time": "2025-06-05",
+    "league_id": 75,
+    "league_name": "Nations League - Women"
+  },
+  {
+    "id": 5083,
+    "name": "Nations League, Women 2024",
+    "year": "2024",
+    "start_time": "2024-05-14",
+    "league_id": 75,
+    "league_name": "Nations League - Women"
+  },
+  {
+    "id": 8097,
+    "name": "Nations League, Women 2023",
+    "year": "2023",
+    "start_time": "2023-05-31",
+    "league_id": 75,
+    "league_name": "Nations League - Women"
+  },
+  {
+    "id": 8104,
+    "name": "Nations League, Women 2022",
+    "year": "2022",
+    "start_time": "2022-06-02",
+    "league_id": 75,
+    "league_name": "Nations League - Women"
+  },
+  {
+    "id": 8126,
+    "name": "Nations League, Women 2021",
+    "year": "2021",
+    "start_time": "2021-05-25",
+    "league_id": 75,
+    "league_name": "Nations League - Women"
+  },
+  {
+    "id": 14778,
+    "name": "Nations League, Women 2019",
+    "year": "2019",
+    "start_time": "2019-05-21",
+    "league_id": 75,
+    "league_name": "Nations League - Women"
+  },
+  {
+    "id": 14833,
+    "name": "Nations League, Women 2018",
+    "year": "2018",
+    "start_time": "2018-05-15",
+    "league_id": 75,
+    "league_name": "Nations League - Women"
+  }
+]

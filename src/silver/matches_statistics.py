@@ -5,11 +5,11 @@ import sqlalchemy
 import json
 from cleaning_formulas import loading_table_bronze,casting, renaming_columns, json_column_expand, save_db_silver
 
-# %%
-df = loading_table_bronze("matches_statistics")
+# %% loading table
+matches_statistics = loading_table_bronze("matches_statistics")
 
 # %%
-df = json_column_expand(df,'statistics')
+matches_statistics = json_column_expand(matches_statistics,'statistics')
 
 # %% 
 
@@ -19,14 +19,14 @@ cols_to_rename = {
         ,
 
 }
-df = renaming_columns(df, cols_to_rename)
+matches_statistics = renaming_columns(matches_statistics, cols_to_rename)
 
 # %% 
 
-df = casting(df)
-df["set"] = df["set"].astype("string")
-df["category"] = df["category"].astype("string")
+matches_statistics = casting(matches_statistics)
+matches_statistics["set"] = matches_statistics["set"].astype("string")
+matches_statistics["category"] = matches_statistics["category"].astype("string")
 
 # %% 
 
-save_db_silver(df,"matches_statistics")
+save_db_silver(matches_statistics,"matches_statistics")
