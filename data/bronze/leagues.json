@@ -1,0 +1,32 @@
+[
+  {
+    "id": 157368,
+    "logo": "https://highlightly.net/volleyball/images/leagues/157368.png",
+    "name": "Nations League Women",
+    "seasons": [
+      {
+        "season": 2021
+      },
+      {
+        "season": 2024
+      },
+      {
+        "season": 2022
+      },
+      {
+        "season": 2025
+      },
+      {
+        "season": 2023
+      },
+      {
+        "season": 2026
+      }
+    ],
+    "country": {
+      "code": "World",
+      "name": "World",
+      "logo": "http://highlightly.net/volleyball/images/countries/World.png"
+    }
+  }
+]

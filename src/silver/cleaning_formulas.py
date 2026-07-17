@@ -11,7 +11,30 @@ def loading_table_bronze(table_name):
     df = pd.read_sql(query, con=con)
     return df
 
-# %% CASTING
+# Json column expand
+
+def json_column_expand(table, column: str):
+    def parse(x):
+        if isinstance(x, str):
+            return json.loads(x)
+        return x
+
+    table = table.copy()
+    table[column] = table[column].apply(parse)
+
+    exploded = table.explode(column).reset_index(drop=True)
+    exploded = exploded[exploded[column].notna()].reset_index(drop=True)
+
+    stats = pd.json_normalize(exploded[column])
+
+    result = pd.concat(
+        [exploded.drop(columns=[column]).reset_index(drop=True), stats],
+        axis=1
+    )
+    return result
+
+
+#  CASTING
 def casting(df):
     for n in df.columns:
         # dropping the agregations
@@ -33,14 +56,14 @@ def casting(df):
     return df
 
 
-# %% DROPPING COLUMNS
+# DROPPING COLUMNS
 def drop_columns(df, columns_to_drop:list):
     drop_columns = columns_to_drop  + [i for i in df.columns if i.__contains__("image")]
     df = df.drop(columns=drop_columns,
                 errors="ignore")
     return df
 
-# %% RENAMING COLUMNS
+# RENAMING COLUMNS
 
 def renaming_columns(df, columns_to_rename: dict | None = None):
 
@@ -57,23 +80,8 @@ def renaming_columns(df, columns_to_rename: dict | None = None):
 
     return df
 
-# %%
-def json_column_expand(table,column:str):
 
-    table[column] = table[column].apply(json.loads)
-
-    exploded = (table.explode(column)
-                    .reset_index(drop=True))
-    
-    stats = pd.json_normalize(exploded[column])
-
-    result = pd.concat(
-        [exploded.drop(columns=[column]).reset_index(drop=True), stats],
-        axis=1
-    )
-    return result
-
-# %%
+# Saving in silver
 
 def save_db_silver(table_to_save,table_name):
     engine_silver = 'sqlite:///../../data/silver/db_silver.db'

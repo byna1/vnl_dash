@@ -4,7 +4,6 @@ import pandas as pd
 import sqlalchemy as sql
 import json
 import os
-# %% 
 
 print("Creating conection with db...")
 
@@ -41,10 +40,7 @@ def main ():
 
     print(f"COMPLETED!")
 
-main()
 
-
-# %% 
 
 if __name__ == main():
     main()
