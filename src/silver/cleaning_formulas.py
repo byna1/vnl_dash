@@ -70,15 +70,32 @@ def renaming_columns(df, columns_to_rename: dict | None = None):
     cols = {}
 
     for n in df.columns:
-        cols[n] = (n.replace(".", "_")
-                    .replace("period", "set"))
-
+        cols[n] = (n.replace("state.score.", "")
+                    .replace("state.", "")
+                    .replace(".", "_")
+                    .replace("period", "set")
+                    )
+  
     if columns_to_rename:
         cols.update(columns_to_rename)
 
     df = df.rename(columns=cols)
 
     return df
+
+# Expanding columns
+def column_expand (tb_col,
+                   col_to_be_expanded:str,
+                   col_1_name:str,
+                   col_2_name:str, 
+                   sep_element=None):
+    
+    if sep_element is None:
+        sep_element = "-"
+ 
+    tb_col[[col_1_name,col_2_name]] = (tb_col[col_to_be_expanded].str
+                                                        .split(sep_element, 
+                                                            expand=True))
 
 
 # Saving in silver
