@@ -62,7 +62,7 @@ Python (scraping) · SQL (transformations) · Power BI (visualization) · Git/Gi
 
 ## Requirements
 
-Numpy, pyarrow, pandas, requests, sqlalchemy, json
+Numpy, pyarrow, pandas, requests, sqlalchemy, json, pycountry
 
 ## Data
 

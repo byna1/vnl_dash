@@ -1,0 +1,1292 @@
+[
+  {
+    "code": "AF",
+    "name": "Afghanistan",
+    "logo": "http://highlightly.net/volleyball/images/countries/AF.svg"
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "logo": "http://highlightly.net/volleyball/images/countries/AL.svg"
+  },
+  {
+    "code": "US",
+    "name": "USA",
+    "logo": "http://highlightly.net/volleyball/images/countries/US.svg"
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "logo": "http://highlightly.net/volleyball/images/countries/LA.svg"
+  },
+  {
+    "code": "AQ",
+    "name": "Antarctica",
+    "logo": "http://highlightly.net/volleyball/images/countries/AQ.svg"
+  },
+  {
+    "code": "WLS",
+    "name": "Wales",
+    "logo": "http://highlightly.net/volleyball/images/countries/WLS.svg"
+  },
+  {
+    "code": "UA-43",
+    "name": "Crimea",
+    "logo": "http://highlightly.net/volleyball/images/countries/UA-43.svg"
+  },
+  {
+    "code": "DZ",
+    "name": "Algeria",
+    "logo": "http://highlightly.net/volleyball/images/countries/DZ.svg"
+  },
+  {
+    "code": "AS",
+    "name": "American Samoa",
+    "logo": "http://highlightly.net/volleyball/images/countries/AS.svg"
+  },
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "logo": "http://highlightly.net/volleyball/images/countries/AD.svg"
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "logo": "http://highlightly.net/volleyball/images/countries/AO.svg"
+  },
+  {
+    "code": "AG",
+    "name": "Antigua and Barbuda",
+    "logo": "http://highlightly.net/volleyball/images/countries/AG.svg"
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaidjan",
+    "logo": "http://highlightly.net/volleyball/images/countries/AZ.svg"
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "logo": "http://highlightly.net/volleyball/images/countries/AR.svg"
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "logo": "http://highlightly.net/volleyball/images/countries/AU.svg"
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "logo": "http://highlightly.net/volleyball/images/countries/AT.svg"
+  },
+  {
+    "code": "BS",
+    "name": "Bahamas",
+    "logo": "http://highlightly.net/volleyball/images/countries/BS.svg"
+  },
+  {
+    "code": "BH",
+    "name": "Bahrain",
+    "logo": "http://highlightly.net/volleyball/images/countries/BH.svg"
+  },
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "logo": "http://highlightly.net/volleyball/images/countries/BD.svg"
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "logo": "http://highlightly.net/volleyball/images/countries/AM.svg"
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "logo": "http://highlightly.net/volleyball/images/countries/BB.svg"
+  },
+  {
+    "code": "BE",
+    "name": "Belgium",
+    "logo": "http://highlightly.net/volleyball/images/countries/BE.svg"
+  },
+  {
+    "code": "BT",
+    "name": "Bhutan",
+    "logo": "http://highlightly.net/volleyball/images/countries/BT.svg"
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "logo": "http://highlightly.net/volleyball/images/countries/BO.svg"
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia",
+    "logo": "http://highlightly.net/volleyball/images/countries/BA.svg"
+  },
+  {
+    "code": "BW",
+    "name": "Botswana",
+    "logo": "http://highlightly.net/volleyball/images/countries/BW.svg"
+  },
+  {
+    "code": "BV",
+    "name": "Bouvet Island",
+    "logo": "http://highlightly.net/volleyball/images/countries/BV.svg"
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "logo": "http://highlightly.net/volleyball/images/countries/BR.svg"
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "logo": "http://highlightly.net/volleyball/images/countries/BZ.svg"
+  },
+  {
+    "code": "IO",
+    "name": "British Indian Ocean Territory",
+    "logo": "http://highlightly.net/volleyball/images/countries/IO.svg"
+  },
+  {
+    "code": "SB",
+    "name": "Solomon Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/SB.svg"
+  },
+  {
+    "code": "VG",
+    "name": "British Virgin Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/VG.svg"
+  },
+  {
+    "code": "BN",
+    "name": "Brunei Darussalam",
+    "logo": "http://highlightly.net/volleyball/images/countries/BN.svg"
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "logo": "http://highlightly.net/volleyball/images/countries/BG.svg"
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "logo": "http://highlightly.net/volleyball/images/countries/MM.svg"
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "logo": "http://highlightly.net/volleyball/images/countries/BI.svg"
+  },
+  {
+    "code": "BY",
+    "name": "Belarus",
+    "logo": "http://highlightly.net/volleyball/images/countries/BY.svg"
+  },
+  {
+    "code": "KH",
+    "name": "Cambodia",
+    "logo": "http://highlightly.net/volleyball/images/countries/KH.svg"
+  },
+  {
+    "code": "CM",
+    "name": "Cameroon",
+    "logo": "http://highlightly.net/volleyball/images/countries/CM.svg"
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "logo": "http://highlightly.net/volleyball/images/countries/CA.svg"
+  },
+  {
+    "code": "CV",
+    "name": "Cape Verde",
+    "logo": "http://highlightly.net/volleyball/images/countries/CV.svg"
+  },
+  {
+    "code": "KY",
+    "name": "Cayman Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/KY.svg"
+  },
+  {
+    "code": "CF",
+    "name": "Central African Republic",
+    "logo": "http://highlightly.net/volleyball/images/countries/CF.svg"
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "logo": "http://highlightly.net/volleyball/images/countries/LK.svg"
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "logo": "http://highlightly.net/volleyball/images/countries/TD.svg"
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "logo": "http://highlightly.net/volleyball/images/countries/CL.svg"
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "logo": "http://highlightly.net/volleyball/images/countries/CN.svg"
+  },
+  {
+    "code": "CX",
+    "name": "Christmas Island",
+    "logo": "http://highlightly.net/volleyball/images/countries/CX.svg"
+  },
+  {
+    "code": "CC",
+    "name": "Cocos (Keeling) Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/CC.svg"
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad And Tobago",
+    "logo": "http://highlightly.net/volleyball/images/countries/TT.svg"
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "logo": "http://highlightly.net/volleyball/images/countries/CO.svg"
+  },
+  {
+    "code": "KM",
+    "name": "Comoros",
+    "logo": "http://highlightly.net/volleyball/images/countries/KM.svg"
+  },
+  {
+    "code": "YT",
+    "name": "Mayotte",
+    "logo": "http://highlightly.net/volleyball/images/countries/YT.svg"
+  },
+  {
+    "code": "CG",
+    "name": "Congo DR",
+    "logo": "http://highlightly.net/volleyball/images/countries/CG.svg"
+  },
+  {
+    "code": "CD",
+    "name": "Congo",
+    "logo": "http://highlightly.net/volleyball/images/countries/CD.svg"
+  },
+  {
+    "code": "CK",
+    "name": "Cook Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/CK.svg"
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "logo": "http://highlightly.net/volleyball/images/countries/CR.svg"
+  },
+  {
+    "code": "HR",
+    "name": "Croatia",
+    "logo": "http://highlightly.net/volleyball/images/countries/HR.svg"
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "logo": "http://highlightly.net/volleyball/images/countries/CU.svg"
+  },
+  {
+    "code": "CY",
+    "name": "Cyprus",
+    "logo": "http://highlightly.net/volleyball/images/countries/CY.svg"
+  },
+  {
+    "code": "CZ",
+    "name": "Czech Republic",
+    "logo": "http://highlightly.net/volleyball/images/countries/CZ.svg"
+  },
+  {
+    "code": "BJ",
+    "name": "Benin",
+    "logo": "http://highlightly.net/volleyball/images/countries/BJ.svg"
+  },
+  {
+    "code": "DK",
+    "name": "Denmark",
+    "logo": "http://highlightly.net/volleyball/images/countries/DK.svg"
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "logo": "http://highlightly.net/volleyball/images/countries/DM.svg"
+  },
+  {
+    "code": "DO",
+    "name": "Dominican Republic",
+    "logo": "http://highlightly.net/volleyball/images/countries/DO.svg"
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "logo": "http://highlightly.net/volleyball/images/countries/EC.svg"
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "logo": "http://highlightly.net/volleyball/images/countries/SV.svg"
+  },
+  {
+    "code": "GQ",
+    "name": "Equatorial Guinea",
+    "logo": "http://highlightly.net/volleyball/images/countries/GQ.svg"
+  },
+  {
+    "code": "ET",
+    "name": "Ethiopia",
+    "logo": "http://highlightly.net/volleyball/images/countries/ET.svg"
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "logo": "http://highlightly.net/volleyball/images/countries/ER.svg"
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "logo": "http://highlightly.net/volleyball/images/countries/EE.svg"
+  },
+  {
+    "code": "FO",
+    "name": "Faroe Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/FO.svg"
+  },
+  {
+    "code": "FK",
+    "name": "Falkland Islands (Malvinas)",
+    "logo": "http://highlightly.net/volleyball/images/countries/FK.svg"
+  },
+  {
+    "code": "GS",
+    "name": "South Georgia and the South Sandwich Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/GS.svg"
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji",
+    "logo": "http://highlightly.net/volleyball/images/countries/FJ.svg"
+  },
+  {
+    "code": "FI",
+    "name": "Finland",
+    "logo": "http://highlightly.net/volleyball/images/countries/FI.svg"
+  },
+  {
+    "code": "AX",
+    "name": "?land Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/AX.svg"
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "logo": "http://highlightly.net/volleyball/images/countries/FR.svg"
+  },
+  {
+    "code": "GF",
+    "name": "French Guiana",
+    "logo": "http://highlightly.net/volleyball/images/countries/GF.svg"
+  },
+  {
+    "code": "PF",
+    "name": "French Polynesia",
+    "logo": "http://highlightly.net/volleyball/images/countries/PF.svg"
+  },
+  {
+    "code": "TF",
+    "name": "French Southern Territories",
+    "logo": "http://highlightly.net/volleyball/images/countries/TF.svg"
+  },
+  {
+    "code": "DJ",
+    "name": "Djibouti",
+    "logo": "http://highlightly.net/volleyball/images/countries/DJ.svg"
+  },
+  {
+    "code": "GA",
+    "name": "Gabon",
+    "logo": "http://highlightly.net/volleyball/images/countries/GA.svg"
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "logo": "http://highlightly.net/volleyball/images/countries/GE.svg"
+  },
+  {
+    "code": "GM",
+    "name": "Gambia",
+    "logo": "http://highlightly.net/volleyball/images/countries/GM.svg"
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "logo": "http://highlightly.net/volleyball/images/countries/DE.svg"
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "logo": "http://highlightly.net/volleyball/images/countries/GH.svg"
+  },
+  {
+    "code": "GI",
+    "name": "Gibraltar",
+    "logo": "http://highlightly.net/volleyball/images/countries/GI.svg"
+  },
+  {
+    "code": "KI",
+    "name": "Kiribati",
+    "logo": "http://highlightly.net/volleyball/images/countries/KI.svg"
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "logo": "http://highlightly.net/volleyball/images/countries/GR.svg"
+  },
+  {
+    "code": "GL",
+    "name": "Greenland",
+    "logo": "http://highlightly.net/volleyball/images/countries/GL.svg"
+  },
+  {
+    "code": "GD",
+    "name": "Grenada",
+    "logo": "http://highlightly.net/volleyball/images/countries/GD.svg"
+  },
+  {
+    "code": "SZ",
+    "name": "Eswatini",
+    "logo": "http://highlightly.net/volleyball/images/countries/SZ.svg"
+  },
+  {
+    "code": "GP",
+    "name": "Guadeloupe",
+    "logo": "http://highlightly.net/volleyball/images/countries/GP.svg"
+  },
+  {
+    "code": "GU",
+    "name": "Guam",
+    "logo": "http://highlightly.net/volleyball/images/countries/GU.svg"
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "logo": "http://highlightly.net/volleyball/images/countries/GT.svg"
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "logo": "http://highlightly.net/volleyball/images/countries/GN.svg"
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "logo": "http://highlightly.net/volleyball/images/countries/GY.svg"
+  },
+  {
+    "code": "HT",
+    "name": "Haiti",
+    "logo": "http://highlightly.net/volleyball/images/countries/HT.svg"
+  },
+  {
+    "code": "HM",
+    "name": "Heard Island and McDonald Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/HM.svg"
+  },
+  {
+    "code": "VA",
+    "name": "Holy See (Vatican City State)",
+    "logo": "http://highlightly.net/volleyball/images/countries/VA.svg"
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "logo": "http://highlightly.net/volleyball/images/countries/HN.svg"
+  },
+  {
+    "code": "HK",
+    "name": "Hong Kong",
+    "logo": "http://highlightly.net/volleyball/images/countries/HK.svg"
+  },
+  {
+    "code": "HU",
+    "name": "Hungary",
+    "logo": "http://highlightly.net/volleyball/images/countries/HU.svg"
+  },
+  {
+    "code": "IS",
+    "name": "Iceland",
+    "logo": "http://highlightly.net/volleyball/images/countries/IS.svg"
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "logo": "http://highlightly.net/volleyball/images/countries/IN.svg"
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "logo": "http://highlightly.net/volleyball/images/countries/ID.svg"
+  },
+  {
+    "code": "IR",
+    "name": "Iran",
+    "logo": "http://highlightly.net/volleyball/images/countries/IR.svg"
+  },
+  {
+    "code": "IQ",
+    "name": "Iraq",
+    "logo": "http://highlightly.net/volleyball/images/countries/IQ.svg"
+  },
+  {
+    "code": "IE",
+    "name": "Ireland",
+    "logo": "http://highlightly.net/volleyball/images/countries/IE.svg"
+  },
+  {
+    "code": "GB-NIR",
+    "name": "Northern Ireland",
+    "logo": "http://highlightly.net/volleyball/images/countries/GB-NIR.svg"
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "logo": "http://highlightly.net/volleyball/images/countries/IL.svg"
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "logo": "http://highlightly.net/volleyball/images/countries/IT.svg"
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "logo": "http://highlightly.net/volleyball/images/countries/JM.svg"
+  },
+  {
+    "code": "GB-ENG",
+    "name": "England",
+    "logo": "http://highlightly.net/volleyball/images/countries/GB-ENG.svg"
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "logo": "http://highlightly.net/volleyball/images/countries/JP.svg"
+  },
+  {
+    "code": "KZ",
+    "name": "Kazakhstan",
+    "logo": "http://highlightly.net/volleyball/images/countries/KZ.svg"
+  },
+  {
+    "code": "JO",
+    "name": "Jordan",
+    "logo": "http://highlightly.net/volleyball/images/countries/JO.svg"
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "logo": "http://highlightly.net/volleyball/images/countries/KE.svg"
+  },
+  {
+    "code": "KP",
+    "name": "Korea",
+    "logo": "http://highlightly.net/volleyball/images/countries/KP.svg"
+  },
+  {
+    "code": "KR",
+    "name": "South Korea",
+    "logo": "http://highlightly.net/volleyball/images/countries/KR.svg"
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "logo": "http://highlightly.net/volleyball/images/countries/KW.svg"
+  },
+  {
+    "code": "KG",
+    "name": "Kyrgyzstan",
+    "logo": "http://highlightly.net/volleyball/images/countries/KG.svg"
+  },
+  {
+    "code": "LB",
+    "name": "Lebanon",
+    "logo": "http://highlightly.net/volleyball/images/countries/LB.svg"
+  },
+  {
+    "code": "LS",
+    "name": "Lesotho",
+    "logo": "http://highlightly.net/volleyball/images/countries/LS.svg"
+  },
+  {
+    "code": "LV",
+    "name": "Latvia",
+    "logo": "http://highlightly.net/volleyball/images/countries/LV.svg"
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "logo": "http://highlightly.net/volleyball/images/countries/LR.svg"
+  },
+  {
+    "code": "LY",
+    "name": "Libya",
+    "logo": "http://highlightly.net/volleyball/images/countries/LY.svg"
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "logo": "http://highlightly.net/volleyball/images/countries/LI.svg"
+  },
+  {
+    "code": "LT",
+    "name": "Lithuania",
+    "logo": "http://highlightly.net/volleyball/images/countries/LT.svg"
+  },
+  {
+    "code": "LU",
+    "name": "Luxembourg",
+    "logo": "http://highlightly.net/volleyball/images/countries/LU.svg"
+  },
+  {
+    "code": "MO",
+    "name": "Macao",
+    "logo": "http://highlightly.net/volleyball/images/countries/MO.svg"
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "logo": "http://highlightly.net/volleyball/images/countries/MG.svg"
+  },
+  {
+    "code": "MW",
+    "name": "Malawi",
+    "logo": "http://highlightly.net/volleyball/images/countries/MW.svg"
+  },
+  {
+    "code": "MY",
+    "name": "Malaysia",
+    "logo": "http://highlightly.net/volleyball/images/countries/MY.svg"
+  },
+  {
+    "code": "MV",
+    "name": "Maldives",
+    "logo": "http://highlightly.net/volleyball/images/countries/MV.svg"
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "logo": "http://highlightly.net/volleyball/images/countries/ML.svg"
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "logo": "http://highlightly.net/volleyball/images/countries/MT.svg"
+  },
+  {
+    "code": "MQ",
+    "name": "Martinique",
+    "logo": "http://highlightly.net/volleyball/images/countries/MQ.svg"
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "logo": "http://highlightly.net/volleyball/images/countries/MR.svg"
+  },
+  {
+    "code": "MU",
+    "name": "Mauritius",
+    "logo": "http://highlightly.net/volleyball/images/countries/MU.svg"
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "logo": "http://highlightly.net/volleyball/images/countries/MX.svg"
+  },
+  {
+    "code": "MC",
+    "name": "Monaco",
+    "logo": "http://highlightly.net/volleyball/images/countries/MC.svg"
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "logo": "http://highlightly.net/volleyball/images/countries/MN.svg"
+  },
+  {
+    "code": "MD",
+    "name": "Moldova",
+    "logo": "http://highlightly.net/volleyball/images/countries/MD.svg"
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "logo": "http://highlightly.net/volleyball/images/countries/ME.svg"
+  },
+  {
+    "code": "MS",
+    "name": "Montserrat",
+    "logo": "http://highlightly.net/volleyball/images/countries/MS.svg"
+  },
+  {
+    "code": "MA",
+    "name": "Morocco",
+    "logo": "http://highlightly.net/volleyball/images/countries/MA.svg"
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambique",
+    "logo": "http://highlightly.net/volleyball/images/countries/MZ.svg"
+  },
+  {
+    "code": "OM",
+    "name": "Oman",
+    "logo": "http://highlightly.net/volleyball/images/countries/OM.svg"
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "logo": "http://highlightly.net/volleyball/images/countries/NA.svg"
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "logo": "http://highlightly.net/volleyball/images/countries/NR.svg"
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "logo": "http://highlightly.net/volleyball/images/countries/NP.svg"
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "logo": "http://highlightly.net/volleyball/images/countries/NL.svg"
+  },
+  {
+    "code": "CW",
+    "name": "Curacao",
+    "logo": "http://highlightly.net/volleyball/images/countries/CW.svg"
+  },
+  {
+    "code": "AW",
+    "name": "Aruba",
+    "logo": "http://highlightly.net/volleyball/images/countries/AW.svg"
+  },
+  {
+    "code": "SX",
+    "name": "Sint Maarten (Netherlands)",
+    "logo": "http://highlightly.net/volleyball/images/countries/SX.svg"
+  },
+  {
+    "code": "BQ",
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "logo": "http://highlightly.net/volleyball/images/countries/BQ.svg"
+  },
+  {
+    "code": "NC",
+    "name": "New Caledonia",
+    "logo": "http://highlightly.net/volleyball/images/countries/NC.svg"
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "logo": "http://highlightly.net/volleyball/images/countries/VU.svg"
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand",
+    "logo": "http://highlightly.net/volleyball/images/countries/NZ.svg"
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "logo": "http://highlightly.net/volleyball/images/countries/NI.svg"
+  },
+  {
+    "code": "NE",
+    "name": "Niger",
+    "logo": "http://highlightly.net/volleyball/images/countries/NE.svg"
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "logo": "http://highlightly.net/volleyball/images/countries/NG.svg"
+  },
+  {
+    "code": "NU",
+    "name": "Niue",
+    "logo": "http://highlightly.net/volleyball/images/countries/NU.svg"
+  },
+  {
+    "code": "NF",
+    "name": "Norfolk Island",
+    "logo": "http://highlightly.net/volleyball/images/countries/NF.svg"
+  },
+  {
+    "code": "NO",
+    "name": "Norway",
+    "logo": "http://highlightly.net/volleyball/images/countries/NO.svg"
+  },
+  {
+    "code": "MP",
+    "name": "Northern Mariana Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/MP.svg"
+  },
+  {
+    "code": "UM",
+    "name": "United States Minor Outlying Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/UM.svg"
+  },
+  {
+    "code": "FM",
+    "name": "Micronesia",
+    "logo": "http://highlightly.net/volleyball/images/countries/FM.svg"
+  },
+  {
+    "code": "MH",
+    "name": "Marshall Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/MH.svg"
+  },
+  {
+    "code": "PW",
+    "name": "Palau",
+    "logo": "http://highlightly.net/volleyball/images/countries/PW.svg"
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "logo": "http://highlightly.net/volleyball/images/countries/PK.svg"
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "logo": "http://highlightly.net/volleyball/images/countries/PA.svg"
+  },
+  {
+    "code": "PG",
+    "name": "Papua New Guinea",
+    "logo": "http://highlightly.net/volleyball/images/countries/PG.svg"
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "logo": "http://highlightly.net/volleyball/images/countries/PY.svg"
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "logo": "http://highlightly.net/volleyball/images/countries/PE.svg"
+  },
+  {
+    "code": "PH",
+    "name": "Philippines",
+    "logo": "http://highlightly.net/volleyball/images/countries/PH.svg"
+  },
+  {
+    "code": "PN",
+    "name": "Pitcairn Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/PN.svg"
+  },
+  {
+    "code": "PL",
+    "name": "Poland",
+    "logo": "http://highlightly.net/volleyball/images/countries/PL.svg"
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "logo": "http://highlightly.net/volleyball/images/countries/PT.svg"
+  },
+  {
+    "code": "GW",
+    "name": "Guinea Bissau",
+    "logo": "http://highlightly.net/volleyball/images/countries/GW.svg"
+  },
+  {
+    "code": "TL",
+    "name": "Timor Leste",
+    "logo": "http://highlightly.net/volleyball/images/countries/TL.svg"
+  },
+  {
+    "code": "PR",
+    "name": "Puerto Rico",
+    "logo": "http://highlightly.net/volleyball/images/countries/PR.svg"
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "logo": "http://highlightly.net/volleyball/images/countries/QA.svg"
+  },
+  {
+    "code": "RE",
+    "name": "Reunion",
+    "logo": "http://highlightly.net/volleyball/images/countries/RE.svg"
+  },
+  {
+    "code": "RO",
+    "name": "Romania",
+    "logo": "http://highlightly.net/volleyball/images/countries/RO.svg"
+  },
+  {
+    "code": "RU",
+    "name": "Russia",
+    "logo": "http://highlightly.net/volleyball/images/countries/RU.svg"
+  },
+  {
+    "code": "RW",
+    "name": "Rwanda",
+    "logo": "http://highlightly.net/volleyball/images/countries/RW.svg"
+  },
+  {
+    "code": "BL",
+    "name": "Saint Barthelemy",
+    "logo": "http://highlightly.net/volleyball/images/countries/BL.svg"
+  },
+  {
+    "code": "SH",
+    "name": "Saint Helena",
+    "logo": "http://highlightly.net/volleyball/images/countries/SH.svg"
+  },
+  {
+    "code": "KN",
+    "name": "Saint Kitts and Nevis",
+    "logo": "http://highlightly.net/volleyball/images/countries/KN.svg"
+  },
+  {
+    "code": "AI",
+    "name": "Anguilla",
+    "logo": "http://highlightly.net/volleyball/images/countries/AI.svg"
+  },
+  {
+    "code": "LC",
+    "name": "Saint Lucia",
+    "logo": "http://highlightly.net/volleyball/images/countries/LC.svg"
+  },
+  {
+    "code": "MF",
+    "name": "Saint Martin",
+    "logo": "http://highlightly.net/volleyball/images/countries/MF.svg"
+  },
+  {
+    "code": "PM",
+    "name": "Saint Pierre and Miquelon",
+    "logo": "http://highlightly.net/volleyball/images/countries/PM.svg"
+  },
+  {
+    "code": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "logo": "http://highlightly.net/volleyball/images/countries/VC.svg"
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "logo": "http://highlightly.net/volleyball/images/countries/SM.svg"
+  },
+  {
+    "code": "ST",
+    "name": "Sao Tome and Principe",
+    "logo": "http://highlightly.net/volleyball/images/countries/ST.svg"
+  },
+  {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "logo": "http://highlightly.net/volleyball/images/countries/SA.svg"
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "logo": "http://highlightly.net/volleyball/images/countries/SN.svg"
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "logo": "http://highlightly.net/volleyball/images/countries/RS.svg"
+  },
+  {
+    "code": "SC",
+    "name": "Seychelles",
+    "logo": "http://highlightly.net/volleyball/images/countries/SC.svg"
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "logo": "http://highlightly.net/volleyball/images/countries/SL.svg"
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "logo": "http://highlightly.net/volleyball/images/countries/SG.svg"
+  },
+  {
+    "code": "SK",
+    "name": "Slovakia",
+    "logo": "http://highlightly.net/volleyball/images/countries/SK.svg"
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "logo": "http://highlightly.net/volleyball/images/countries/VN.svg"
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "logo": "http://highlightly.net/volleyball/images/countries/SI.svg"
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "logo": "http://highlightly.net/volleyball/images/countries/SO.svg"
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabwe",
+    "logo": "http://highlightly.net/volleyball/images/countries/ZW.svg"
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "logo": "http://highlightly.net/volleyball/images/countries/ES.svg"
+  },
+  {
+    "code": "SS",
+    "name": "South Sudan",
+    "logo": "http://highlightly.net/volleyball/images/countries/SS.svg"
+  },
+  {
+    "code": "EH",
+    "name": "Western Sahara",
+    "logo": "http://highlightly.net/volleyball/images/countries/EH.svg"
+  },
+  {
+    "code": "SD",
+    "name": "Sudan",
+    "logo": "http://highlightly.net/volleyball/images/countries/SD.svg"
+  },
+  {
+    "code": "SR",
+    "name": "Surinam",
+    "logo": "http://highlightly.net/volleyball/images/countries/SR.svg"
+  },
+  {
+    "code": "SJ",
+    "name": "Svalbard & Jan Mayen Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/SJ.svg"
+  },
+  {
+    "code": "SE",
+    "name": "Sweden",
+    "logo": "http://highlightly.net/volleyball/images/countries/SE.svg"
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "logo": "http://highlightly.net/volleyball/images/countries/CH.svg"
+  },
+  {
+    "code": "SY",
+    "name": "Syria",
+    "logo": "http://highlightly.net/volleyball/images/countries/SY.svg"
+  },
+  {
+    "code": "TJ",
+    "name": "Tajikistan",
+    "logo": "http://highlightly.net/volleyball/images/countries/TJ.svg"
+  },
+  {
+    "code": "TH",
+    "name": "Thailand",
+    "logo": "http://highlightly.net/volleyball/images/countries/TH.svg"
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "logo": "http://highlightly.net/volleyball/images/countries/TG.svg"
+  },
+  {
+    "code": "TK",
+    "name": "Tokelau",
+    "logo": "http://highlightly.net/volleyball/images/countries/TK.svg"
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "logo": "http://highlightly.net/volleyball/images/countries/TO.svg"
+  },
+  {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "logo": "http://highlightly.net/volleyball/images/countries/AE.svg"
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "logo": "http://highlightly.net/volleyball/images/countries/TN.svg"
+  },
+  {
+    "code": "TR",
+    "name": "Turkey",
+    "logo": "http://highlightly.net/volleyball/images/countries/TR.svg"
+  },
+  {
+    "code": "TW",
+    "name": "Chinese Taipei",
+    "logo": "http://highlightly.net/volleyball/images/countries/TW.svg"
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "logo": "http://highlightly.net/volleyball/images/countries/TM.svg"
+  },
+  {
+    "code": "TC",
+    "name": "Turks and Caicos Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/TC.svg"
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "logo": "http://highlightly.net/volleyball/images/countries/TV.svg"
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "logo": "http://highlightly.net/volleyball/images/countries/UG.svg"
+  },
+  {
+    "code": "UA",
+    "name": "Ukraine",
+    "logo": "http://highlightly.net/volleyball/images/countries/UA.svg"
+  },
+  {
+    "code": "MK",
+    "name": "Macedonia",
+    "logo": "http://highlightly.net/volleyball/images/countries/MK.svg"
+  },
+  {
+    "code": "EG",
+    "name": "Egypt",
+    "logo": "http://highlightly.net/volleyball/images/countries/EG.svg"
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "logo": "http://highlightly.net/volleyball/images/countries/GB.svg"
+  },
+  {
+    "code": "GG",
+    "name": "Guernsey",
+    "logo": "http://highlightly.net/volleyball/images/countries/GG.svg"
+  },
+  {
+    "code": "JE",
+    "name": "Jersey",
+    "logo": "http://highlightly.net/volleyball/images/countries/JE.svg"
+  },
+  {
+    "code": "IM",
+    "name": "Isle of Man",
+    "logo": "http://highlightly.net/volleyball/images/countries/IM.svg"
+  },
+  {
+    "code": "GB-SCT",
+    "name": "Scotland",
+    "logo": "http://highlightly.net/volleyball/images/countries/GB-SCT.svg"
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "logo": "http://highlightly.net/volleyball/images/countries/TZ.svg"
+  },
+  {
+    "code": "VI",
+    "name": "United States Virgin Islands",
+    "logo": "http://highlightly.net/volleyball/images/countries/VI.svg"
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "logo": "http://highlightly.net/volleyball/images/countries/BF.svg"
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "logo": "http://highlightly.net/volleyball/images/countries/UY.svg"
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistan",
+    "logo": "http://highlightly.net/volleyball/images/countries/UZ.svg"
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "logo": "http://highlightly.net/volleyball/images/countries/VE.svg"
+  },
+  {
+    "code": "WF",
+    "name": "Wallis and Futuna",
+    "logo": "http://highlightly.net/volleyball/images/countries/WF.svg"
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "logo": "http://highlightly.net/volleyball/images/countries/WS.svg"
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "logo": "http://highlightly.net/volleyball/images/countries/YE.svg"
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "logo": "http://highlightly.net/volleyball/images/countries/ZM.svg"
+  },
+  {
+    "code": "EU",
+    "name": "Europe",
+    "logo": "http://highlightly.net/volleyball/images/countries/EU.svg"
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa",
+    "logo": "http://highlightly.net/volleyball/images/countries/ZA.svg"
+  },
+  {
+    "code": "PS",
+    "name": "Palestine",
+    "logo": "http://highlightly.net/volleyball/images/countries/PS.svg"
+  },
+  {
+    "code": "CI",
+    "name": "Ivory Coast",
+    "logo": "http://highlightly.net/volleyball/images/countries/CI.svg"
+  },
+  {
+    "code": "World",
+    "name": "World",
+    "logo": "http://highlightly.net/volleyball/images/countries/World.png"
+  },
+  {
+    "code": "BM",
+    "name": "Bermuda",
+    "logo": "http://highlightly.net/volleyball/images/countries/BM.svg"
+  },
+  {
+    "code": "XK",
+    "name": "Kosovo",
+    "logo": "http://highlightly.net/volleyball/images/countries/XK.svg"
+  },
+  {
+    "code": "WI",
+    "name": "West Indies",
+    "logo": "http://highlightly.net/volleyball/images/countries/WI.svg"
+  }
+]

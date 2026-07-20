@@ -3,9 +3,10 @@ import pandas as pd
 import sqlalchemy
 import json
 from src.silver.cleaning_formulas import column_expand,drop_columns, loading_table_bronze, json_column_expand, casting, renaming_columns, save_db_silver
-
 pd.set_option("display.max_columns", None)
 
+
+# %%
 def main():
 # %% loading columns
 
@@ -19,7 +20,7 @@ def main():
 
     standings = loading_table_bronze("standings")
 
-
+    countries = loading_table_bronze ("countries")
 
     # %% expanding json
     leagues = json_column_expand(leagues,"seasons")
@@ -32,7 +33,12 @@ def main():
 
     # %% renaming columns
 
-
+    c_rename = {
+        "code":"country_code",
+        "name": "country_name",
+        "logo": "country_logo"
+    }
+    countries = renaming_columns(countries,c_rename)
     # %%
 
     l_rename = {
@@ -140,6 +146,7 @@ def main():
     casting(teams)
     casting(team_stats)
     casting(standings)
+    casting(countries)
 
      # %%
 
@@ -148,6 +155,7 @@ def main():
     save_db_silver(teams, "teams")
     save_db_silver(team_stats, "team_stats")
     save_db_silver(standings, "standings")
+    save_db_silver(countries,"countries")
 
 
 if __name__ == main():
