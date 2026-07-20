@@ -4,3 +4,5 @@
 Key.py
 LICENSE
 m_key.py
+__pycache__/
+.env

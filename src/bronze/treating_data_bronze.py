@@ -7,7 +7,7 @@ import os
 
 print("Creating conection with db...")
 
-engine = "sqlite:///../../data/bronze/db_bronze.db"
+engine = "sqlite:///data/bronze/db_bronze.db"
 
 con = sql.create_engine(engine)
 
@@ -19,7 +19,7 @@ def make_text(x):
     return x
 
 def load_tables(table_name):
-    with open(f"../../data/bronze/{table_name}",encoding="utf-8") as m:
+    with open(f"data/bronze/{table_name}",encoding="utf-8") as m:
         data = json.load(m)
 
     df = pd.json_normalize(data)
@@ -30,7 +30,7 @@ def load_tables(table_name):
 
 def main ():
 
-    files = os.listdir("../../data/bronze/")
+    files = os.listdir("data/bronze/")
 
     for n in files:
         if not n.endswith(".json"):
@@ -42,5 +42,5 @@ def main ():
 
 
 
-if __name__ == main():
+if __name__ == "__main__":
     main()

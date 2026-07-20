@@ -2,7 +2,7 @@
 import pandas as pd
 import requests as r
 import json
-from m_key import Key
+from src.bronze.m_key import Key
 import os
 
 # 
@@ -12,7 +12,7 @@ headers =  {
 
 }
 base = "https://volleyball.highlightly.net/"
-path = "../../data/bronze/"
+path = "data/bronze/"
 
 
 # 
@@ -20,7 +20,8 @@ path = "../../data/bronze/"
 def import_data(headers, base_url:str,endpoint:str, params=None):
         data = r.get(headers=headers,
                 url=f"{base_url}{endpoint}", 
-                params=params)
+                params=params, 
+                timeout=30)
 
         data = data.json()
         return data
@@ -127,6 +128,7 @@ def import_base_for_league(l_id,l_file):
         teams = []
 
         for tid in sorted(teams_ids):
+                print(f"Searching team {tid}...")
                 getting_teams = import_data(headers=headers,
                                         base_url=base,
                                         endpoint=f"teams/{tid}")

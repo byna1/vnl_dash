@@ -5,7 +5,7 @@ import json
 
 # reading
 def loading_table_bronze(table_name):
-    engine_bronze = 'sqlite:///../../data/bronze/db_bronze.db'
+    engine_bronze = 'sqlite:///data/bronze/db_bronze.db'
     con = sql.create_engine(engine_bronze)
     query = f'SELECT * FROM {table_name}'
     df = pd.read_sql(query, con=con)
@@ -101,7 +101,7 @@ def column_expand (tb_col,
 # Saving in silver
 
 def save_db_silver(table_to_save,table_name):
-    engine_silver = 'sqlite:///../../data/silver/db_silver.db'
+    engine_silver = 'sqlite:///data/silver/db_silver.db'
     con_silver = sql.create_engine(engine_silver)
     table_to_save.to_sql(table_name, con=con_silver, if_exists='replace', index=False)
     print(f"Table {table_name} saved in db_silver.db! :)")

@@ -1,5 +1,5 @@
 # vnl_dash
-this is a repo that contains all information about a vnl dashboard built with the intension of showcase the teams general metrics and their players specific metrics.
+this is a repo that contains all information about a vnl dashboard built with the intension of showcase the teams and their matches general metrics across the seasons.
 
 ## VNL Data Portfolio
 
@@ -33,35 +33,18 @@ Power BI — connects to the gold layer to build metrics and dashboards.
 
 ### Dimensions
 
-- Dim_country
+- Dim_League
 
-    ColumnTypeKeyCountryCodeintPKCountryNametext
-
-- Dim_player
+  
+- Dim_teams
 
     ColumnTypeKeyPlayerCodeintPKPlayerNametextCountryCodeintFK → Dim_country
 
 ## Facts
 
-- Fact_Game — grain: one match
+- fct_matches
 
-    ColumnTypeKeycod_gameintPKcod_country_1intFK → Dim_countrycod_country_2intFK → Dim_countrycod_winnerintFK → Dim_country
 
-- Fact_Set — grain: one set of a match
-
-    ColumnTypeKeySet_IDintPKcod_gameintFK → Fact_Gameset_numberint (1–5)PointsCountry_1intPointsCountry_2intWinnerintFK → Dim_country
-
-- Fact_Points — grain: player × set
-
-    ColumnTypeKeyset_idintFK → Fact_SetplayerintFK → Dim_playerbpintvpinttotalint
-
-- Fact_Serves — grain: player × set
-
-    ColumnTypeKeyset_idintFK → Fact_SetplayerintFK → Dim_playerMistakesintRightsint
-
-- Fact_Reception — grain: player × set
-
-    ColumnTypeKeyset_idintFK → Fact_SetplayerintFK → Dim_playerTotalinterrorsint
 
 ## Notes
 
@@ -79,7 +62,7 @@ Python (scraping) · SQL (transformations) · Power BI (visualization) · Git/Gi
 
 ## Requirements
 
-Numpy, pandas, requests, sqlalchemy, json
+Numpy, pyarrow, pandas, requests, sqlalchemy, json
 
 ## Data
 
