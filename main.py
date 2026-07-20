@@ -23,8 +23,8 @@ def main():
     
     print("Saving parquet!")
 
-    db_path = r"/run/media/barbara/Externo/Projetos/Independent_projects/VNL_Dashboard/data/gold/db_gold.db"
-    file_out = Path(r"/run/media/barbara/Externo/Projetos/Independent_projects/VNL_Dashboard/data/gold/parquet")
+    db_path = r"/run/media/barbara/Barbara/Projetos/Independent_projects/VNL_Dashboard/data/gold/db_gold.db"
+    file_out = Path(r"/run/media/barbara/Barbara/Projetos/Independent_projects/VNL_Dashboard/data/gold/parquet")
     file_out.mkdir(exist_ok=True)
 
     conn = sqlite3.connect(db_path)
