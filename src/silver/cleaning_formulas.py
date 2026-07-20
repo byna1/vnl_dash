@@ -42,13 +42,13 @@ def casting(df):
             df = df.drop(columns=n)
 
         #converting scores and ids to int
-        elif "score" in n or "id" in n or "number" in n:
+        elif "score" in n or "number" in n:
             df[n] = (pd.to_numeric(df[n],
                         errors="coerce")
                         .astype("Int64")
                     )
         # converting types and names to string
-        elif n.endswith("name") or n.__contains__("type") or n.__contains__("category"):
+        elif n.endswith("name") or n.__contains__("type") or n.__contains__("category") or n.__contains__("id"):
             df[n] = df[n].astype("string")
 
         elif n.__contains__("date"):

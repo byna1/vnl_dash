@@ -141,8 +141,7 @@ def main():
     casting(team_stats)
     casting(standings)
 
-    # %% 
-
+     # %%
 
     save_db_silver(leagues, "leagues")
     save_db_silver(matches, "matches")
