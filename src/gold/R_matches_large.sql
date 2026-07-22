@@ -18,6 +18,7 @@ SELECT
     fourth_set_home_team_score,
     fourth_set_away_team_score,
     fifth_set_home_team_score,
-    fifth_set_away_team_score
+    fifth_set_away_team_score,
+    description AS match_status
 FROM matches
 ORDER BY league_season DESC, match_id

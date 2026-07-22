@@ -3980,6 +3980,45 @@
   {
     "total": {
       "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "home": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "away": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "leagueId": 209279,
+    "leagueName": "CEV European Championship Women",
+    "season": 2024,
+    "team_id": 1890855
+  },
+  {
+    "total": {
+      "games": {
         "played": 2,
         "wins": 2,
         "loses": 0
@@ -5306,6 +5345,45 @@
   {
     "total": {
       "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "home": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "away": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "leagueId": 209279,
+    "leagueName": "CEV European Championship Women",
+    "season": 2024,
+    "team_id": 1892557
+  },
+  {
+    "total": {
+      "games": {
         "played": 12,
         "wins": 5,
         "loses": 7
@@ -5924,6 +6002,45 @@
     },
     "leagueId": 157368,
     "leagueName": "Nations League Women",
+    "season": 2024,
+    "team_id": 1893408
+  },
+  {
+    "total": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "home": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "away": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "leagueId": 209279,
+    "leagueName": "CEV European Championship Women",
     "season": 2024,
     "team_id": 1893408
   },
@@ -6743,6 +6860,45 @@
     },
     "leagueId": 168431,
     "leagueName": "Friendly International Women",
+    "season": 2024,
+    "team_id": 1895110
+  },
+  {
+    "total": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "home": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "away": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "leagueId": 209279,
+    "leagueName": "CEV European Championship Women",
     "season": 2024,
     "team_id": 1895110
   },
@@ -8582,6 +8738,45 @@
   {
     "total": {
       "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "home": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "away": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "leagueId": 209279,
+    "leagueName": "CEV European Championship Women",
+    "season": 2024,
+    "team_id": 1897663
+  },
+  {
+    "total": {
+      "games": {
         "played": 15,
         "wins": 12,
         "loses": 3
@@ -9830,6 +10025,45 @@
   {
     "total": {
       "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "home": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "away": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "leagueId": 209279,
+    "leagueName": "CEV European Championship Women",
+    "season": 2024,
+    "team_id": 1899365
+  },
+  {
+    "total": {
+      "games": {
         "played": 12,
         "wins": 2,
         "loses": 10
@@ -10844,6 +11078,45 @@
   {
     "total": {
       "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "home": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "away": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "leagueId": 209279,
+    "leagueName": "CEV European Championship Women",
+    "season": 2024,
+    "team_id": 1979359
+  },
+  {
+    "total": {
+      "games": {
         "played": 13,
         "wins": 10,
         "loses": 3
@@ -11390,6 +11663,45 @@
   {
     "total": {
       "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "home": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "away": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "leagueId": 209279,
+    "leagueName": "CEV European Championship Women",
+    "season": 2024,
+    "team_id": 1985316
+  },
+  {
+    "total": {
+      "games": {
         "played": 2,
         "wins": 0,
         "loses": 2
@@ -11853,6 +12165,45 @@
     "leagueId": 159070,
     "leagueName": "World Championship Women",
     "season": 2025,
+    "team_id": 2013399
+  },
+  {
+    "total": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "home": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "away": {
+      "games": {
+        "played": 0,
+        "wins": 0,
+        "loses": 0
+      },
+      "points": {
+        "scored": 0,
+        "received": 0
+      }
+    },
+    "leagueId": 209279,
+    "leagueName": "CEV European Championship Women",
+    "season": 2024,
     "team_id": 2013399
   },
   {

@@ -60,6 +60,7 @@ def main():
         "week" : "match_week",
         "date" : "match_date",
         "current" :"current score",
+        "description":"match_status"
         }
 
     matches = renaming_columns(matches,m_rename)

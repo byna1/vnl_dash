@@ -12,7 +12,9 @@ SELECT
     second_set_home_team_score AS second_set_score,
     third_set_home_team_score AS third_set_score,
     fourth_set_home_team_score AS fourth_set_score,
-    fifth_set_home_team_score AS fifth_set_score
+    fifth_set_home_team_score AS fifth_set_score,
+    description AS match_status
+    
 FROM matches
 
 UNION ALL 
@@ -31,6 +33,7 @@ SELECT
     second_set_away_team_score AS second_set_score,
     third_set_away_team_score AS third_set_score,
     fourth_set_away_team_score AS fourth_set_score,
-    fifth_set_away_team_score AS fifth_set_score
+    fifth_set_away_team_score AS fifth_set_score,
+    description AS match_status
 FROM matches
 ORDER BY league_season DESC, match_id

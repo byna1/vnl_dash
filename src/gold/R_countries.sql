@@ -1,1 +1,2 @@
-SELECT * FROM countries
+SELECT *
+FROM countries
