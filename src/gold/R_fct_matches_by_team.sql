@@ -37,4 +37,4 @@ SELECT
     fifth_set_away_team_score AS fifth_set_score,
     description AS match_status
 FROM matches
-ORDER BY league_season DESC, match_id
+ORDER BY match_id, league_season DESC

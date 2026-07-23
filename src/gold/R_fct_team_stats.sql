@@ -79,6 +79,7 @@ AS
     third_set_score,
     fourth_set_score,
     fifth_set_score,
+    match_status,
     ROW_NUMBER() OVER (PARTITION BY match_id ORDER BY current_score DESC) AS winners_order
 FROM matches_melted
 ),
@@ -91,7 +92,7 @@ AS
     team_id,
     league_season,
     SUM(CASE 
-        WHEN winners_order = 1 AND fourth_set_score IS NULL THEN 1 ELSE 0 
+        WHEN winners_order = 1 AND fourth_set_score IS NULL AND match_status = 'Finished' THEN 1 ELSE 0 
         END) AS n_3_x_0_wins
 FROM tb_matches_3_x_0
 GROUP BY team_id,league_season),
@@ -210,3 +211,4 @@ GROUP BY t1.team_id,t1.season)
 
 SELECT * 
 FROM tb_join
+WHERE team_id = 1886600

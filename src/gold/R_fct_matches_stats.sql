@@ -8,7 +8,7 @@ AS
     SUBSTR(match_date,1,16) as match_date,
     homeTeam_id,
     awayTeam_id,
-    league_season,
+    TRIM(league_season) AS league_season,
     current_home_team_score,
     current_away_team_score,
 	firstSet_home_team_score,
@@ -64,11 +64,13 @@ AS
 
 (SELECT 
     t1.match_id,
+    t1.league_season,
     t1.match_week,
     t1.match_date,
     t1.homeTeam_id,
     t1.awayTeam_id,
-    t1.league_season,
+    t1.match_winner,
+    t1.match_status,
     t1.current_home_team_score,
     t1.current_away_team_score,
 	t1.firstSet_home_team_score,
@@ -81,9 +83,7 @@ AS
     t1.fourth_set_away_team_score,
     t1.fifth_set_home_team_score,
     t1.fifth_set_away_team_score,
-    t1.match_winner,
-    CASE WHEN t2.n_tight_sets IS NULL THEN 0 ELSE t2.n_tight_sets END AS n_tight_sets,
-    match_status
+    CASE WHEN t2.n_tight_sets IS NULL THEN 0 ELSE t2.n_tight_sets END AS n_tight_sets
 FROM tb_match AS t1
 LEFT JOIN tigh_match_flag AS t2
 ON t1.match_id = t2.match_id
@@ -91,3 +91,4 @@ AND t1.league_season = t2.league_season)
 
 SELECT * 
 FROM tb_join
+ORDER BY league_season DESC , match_id 

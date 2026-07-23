@@ -20424,6 +20424,43 @@
     }
   },
   {
+    "id": 179474982,
+    "week": "Semi-finals",
+    "date": "2026-07-25T08:00:00.000Z",
+    "country": {
+      "code": "World",
+      "name": "World",
+      "logo": "http://highlightly.net/volleyball/images/countries/World.png"
+    },
+    "state": {
+      "score": {
+        "current": null,
+        "fifthSet": null,
+        "firstSet": null,
+        "thirdSet": null,
+        "fourthSet": null,
+        "secondSet": null
+      },
+      "description": "Not started"
+    },
+    "awayTeam": {
+      "id": 1890855,
+      "logo": "https://highlightly.net/volleyball/images/teams/1890855.png",
+      "name": "Italy Women"
+    },
+    "homeTeam": {
+      "id": 1886600,
+      "logo": "https://highlightly.net/volleyball/images/teams/1886600.png",
+      "name": "Brazil Women"
+    },
+    "league": {
+      "id": 157368,
+      "logo": "https://highlightly.net/volleyball/images/leagues/157368.png",
+      "name": "Nations League Women",
+      "season": 2026
+    }
+  },
+  {
     "id": 178525266,
     "week": "Quarter-finals",
     "date": "2026-07-23T11:30:00.000Z",
@@ -20508,14 +20545,14 @@
     },
     "state": {
       "score": {
-        "current": null,
+        "current": "3 - 1",
         "fifthSet": null,
-        "firstSet": null,
-        "thirdSet": null,
-        "fourthSet": null,
-        "secondSet": null
+        "firstSet": "24 - 26",
+        "thirdSet": "25 - 16",
+        "fourthSet": "25 - 20",
+        "secondSet": "25 - 22"
       },
-      "description": "Not started"
+      "description": "Finished"
     },
     "awayTeam": {
       "id": 1891706,
@@ -20831,43 +20868,6 @@
     }
   },
   {
-    "id": 171057741,
-    "week": null,
-    "date": "2026-07-12T03:00:00.000Z",
-    "country": {
-      "code": "World",
-      "name": "World",
-      "logo": "http://highlightly.net/volleyball/images/countries/World.png"
-    },
-    "state": {
-      "score": {
-        "current": "0 - 3",
-        "fifthSet": null,
-        "firstSet": "23 - 25",
-        "thirdSet": "13 - 25",
-        "fourthSet": null,
-        "secondSet": "20 - 25"
-      },
-      "description": "Finished"
-    },
-    "awayTeam": {
-      "id": 2013399,
-      "logo": "https://highlightly.net/volleyball/images/teams/2013399.png",
-      "name": "Ukraine Women"
-    },
-    "homeTeam": {
-      "id": 1885749,
-      "logo": "https://highlightly.net/volleyball/images/teams/1885749.png",
-      "name": "Belgium Women"
-    },
-    "league": {
-      "id": 157368,
-      "logo": "https://highlightly.net/volleyball/images/leagues/157368.png",
-      "name": "Nations League Women",
-      "season": 2026
-    }
-  },
-  {
     "id": 171058592,
     "week": null,
     "date": "2026-07-12T03:00:00.000Z",
@@ -20896,6 +20896,43 @@
       "id": 1898514,
       "logo": "https://highlightly.net/volleyball/images/teams/1898514.png",
       "name": "USA Women"
+    },
+    "league": {
+      "id": 157368,
+      "logo": "https://highlightly.net/volleyball/images/leagues/157368.png",
+      "name": "Nations League Women",
+      "season": 2026
+    }
+  },
+  {
+    "id": 171057741,
+    "week": null,
+    "date": "2026-07-12T03:00:00.000Z",
+    "country": {
+      "code": "World",
+      "name": "World",
+      "logo": "http://highlightly.net/volleyball/images/countries/World.png"
+    },
+    "state": {
+      "score": {
+        "current": "0 - 3",
+        "fifthSet": null,
+        "firstSet": "23 - 25",
+        "thirdSet": "13 - 25",
+        "fourthSet": null,
+        "secondSet": "20 - 25"
+      },
+      "description": "Finished"
+    },
+    "awayTeam": {
+      "id": 2013399,
+      "logo": "https://highlightly.net/volleyball/images/teams/2013399.png",
+      "name": "Ukraine Women"
+    },
+    "homeTeam": {
+      "id": 1885749,
+      "logo": "https://highlightly.net/volleyball/images/teams/1885749.png",
+      "name": "Belgium Women"
     },
     "league": {
       "id": 157368,

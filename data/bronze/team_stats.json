@@ -704,24 +704,24 @@
   {
     "total": {
       "games": {
-        "played": 12,
-        "wins": 9,
+        "played": 13,
+        "wins": 10,
         "loses": 3
       },
       "points": {
-        "scored": 29,
-        "received": 18
+        "scored": 32,
+        "received": 19
       }
     },
     "home": {
       "games": {
-        "played": 4,
-        "wins": 4,
+        "played": 5,
+        "wins": 5,
         "loses": 0
       },
       "points": {
-        "scored": 12,
-        "received": 4
+        "scored": 15,
+        "received": 5
       }
     },
     "away": {
@@ -4487,13 +4487,13 @@
   {
     "total": {
       "games": {
-        "played": 12,
+        "played": 13,
         "wins": 8,
-        "loses": 4
+        "loses": 5
       },
       "points": {
-        "scored": 27,
-        "received": 21
+        "scored": 28,
+        "received": 24
       }
     },
     "home": {
@@ -4509,13 +4509,13 @@
     },
     "away": {
       "games": {
-        "played": 4,
+        "played": 5,
         "wins": 4,
-        "loses": 0
+        "loses": 1
       },
       "points": {
-        "scored": 12,
-        "received": 4
+        "scored": 13,
+        "received": 7
       }
     },
     "leagueId": 157368,
