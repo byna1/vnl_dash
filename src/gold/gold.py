@@ -9,24 +9,24 @@ con_gold = sql.create_engine("sqlite:///data/gold/db_gold.db")
 
 file_path = "src/gold/"
 
-def saving_queries(sql_path: str, con_silver, con_gold):
+def saving_queries(sql_path: str, con_1, con_2):
 
     with open(sql_path, "r", encoding="utf-8") as q:
         query = q.read()
 
-    df = pd.read_sql(query, con=con_silver)
+    df = pd.read_sql(query, con=con_1)
 
     nome_tabela = (os.path
                     .basename(sql_path)
                     .removesuffix(".sql")
-                    .removeprefix("R_")) 
+                    .removeprefix("R_")
+                    .removeprefix("X_")) 
     df.to_sql(nome_tabela, 
-              con=con_gold, 
+              con=con_2, 
               if_exists="replace", 
               index=False)
 
     print(f"Table {nome_tabela} saved ({len(df)} rows)")
-
 
 def main():
 
@@ -38,7 +38,13 @@ def main():
                              .join(file_path, file_name),
                              con_silver, 
                              con_gold)
-
+            
+        if file_name.endswith(".sql") and file_name.startswith("X_"):
+                
+                    saving_queries(os.path
+                                     .join(file_path, file_name),
+                                     con_gold, 
+                                     con_gold)
 
 #  %%
 if __name__ == "__main__":

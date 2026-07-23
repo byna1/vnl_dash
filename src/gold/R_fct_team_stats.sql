@@ -211,4 +211,3 @@ GROUP BY t1.team_id,t1.season)
 
 SELECT * 
 FROM tb_join
-WHERE team_id = 1886600

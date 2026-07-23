@@ -20508,14 +20508,14 @@
     },
     "state": {
       "score": {
-        "current": null,
+        "current": "3 - 1",
         "fifthSet": null,
-        "firstSet": null,
-        "thirdSet": null,
-        "fourthSet": null,
-        "secondSet": null
+        "firstSet": "22 - 25",
+        "thirdSet": "25 - 21",
+        "fourthSet": "25 - 17",
+        "secondSet": "25 - 21"
       },
-      "description": "Not started"
+      "description": "Finished"
     },
     "awayTeam": {
       "id": 1887451,
@@ -20868,43 +20868,6 @@
     }
   },
   {
-    "id": 171058592,
-    "week": null,
-    "date": "2026-07-12T03:00:00.000Z",
-    "country": {
-      "code": "World",
-      "name": "World",
-      "logo": "http://highlightly.net/volleyball/images/countries/World.png"
-    },
-    "state": {
-      "score": {
-        "current": "3 - 0",
-        "fifthSet": null,
-        "firstSet": "26 - 24",
-        "thirdSet": "25 - 16",
-        "fourthSet": null,
-        "secondSet": "25 - 22"
-      },
-      "description": "Finished"
-    },
-    "awayTeam": {
-      "id": 1886600,
-      "logo": "https://highlightly.net/volleyball/images/teams/1886600.png",
-      "name": "Brazil Women"
-    },
-    "homeTeam": {
-      "id": 1898514,
-      "logo": "https://highlightly.net/volleyball/images/teams/1898514.png",
-      "name": "USA Women"
-    },
-    "league": {
-      "id": 157368,
-      "logo": "https://highlightly.net/volleyball/images/leagues/157368.png",
-      "name": "Nations League Women",
-      "season": 2026
-    }
-  },
-  {
     "id": 171057741,
     "week": null,
     "date": "2026-07-12T03:00:00.000Z",
@@ -20933,6 +20896,43 @@
       "id": 1885749,
       "logo": "https://highlightly.net/volleyball/images/teams/1885749.png",
       "name": "Belgium Women"
+    },
+    "league": {
+      "id": 157368,
+      "logo": "https://highlightly.net/volleyball/images/leagues/157368.png",
+      "name": "Nations League Women",
+      "season": 2026
+    }
+  },
+  {
+    "id": 171058592,
+    "week": null,
+    "date": "2026-07-12T03:00:00.000Z",
+    "country": {
+      "code": "World",
+      "name": "World",
+      "logo": "http://highlightly.net/volleyball/images/countries/World.png"
+    },
+    "state": {
+      "score": {
+        "current": "3 - 0",
+        "fifthSet": null,
+        "firstSet": "26 - 24",
+        "thirdSet": "25 - 16",
+        "fourthSet": null,
+        "secondSet": "25 - 22"
+      },
+      "description": "Finished"
+    },
+    "awayTeam": {
+      "id": 1886600,
+      "logo": "https://highlightly.net/volleyball/images/teams/1886600.png",
+      "name": "Brazil Women"
+    },
+    "homeTeam": {
+      "id": 1898514,
+      "logo": "https://highlightly.net/volleyball/images/teams/1898514.png",
+      "name": "USA Women"
     },
     "league": {
       "id": 157368,
