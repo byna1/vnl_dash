@@ -11,7 +11,9 @@ AS
     MAX(CASE WHEN team_type = 'away' THEN t2.team_id END) awayTeam_id,
     MAX(CASE WHEN team_type = 'away' THEN t2.team_id END) homeTeam_id,
     MAX(CASE WHEN team_type = 'home' THEN team_name END) homeTeam_name,
-    MAX(CASE WHEN team_type = 'away' THEN team_name END) awayTeam_name
+    MAX(CASE WHEN team_type = 'away' THEN team_name END) awayTeam_name,
+    match_date,
+    league_season
 FROM fct_matches_by_team t1
 LEFT JOIN dim_teams t2
 ON t1.team_id = t2.team_id
