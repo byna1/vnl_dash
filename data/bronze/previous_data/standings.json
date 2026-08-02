@@ -1,0 +1,1276 @@
+[
+  {
+    "groups": [],
+    "league": {
+      "id": 157368,
+      "logo": "https://highlightly.net/volleyball/images/leagues/157368.png",
+      "name": "Nations League Women",
+      "season": 2021
+    }
+  },
+  {
+    "groups": [
+      {
+        "name": "Regular Season",
+        "standings": [
+          {
+            "team": {
+              "id": 1886600,
+              "logo": "https://highlightly.net/volleyball/images/teams/1886600.png",
+              "name": "Brazil W"
+            },
+            "wins": 12,
+            "loses": 0,
+            "points": 34,
+            "position": 1,
+            "gamesPlayed": 12,
+            "scoredPoints": 36,
+            "receivedPoints": 9
+          },
+          {
+            "team": {
+              "id": 1890855,
+              "logo": "https://highlightly.net/volleyball/images/teams/1890855.png",
+              "name": "Italy W"
+            },
+            "wins": 10,
+            "loses": 2,
+            "points": 31,
+            "position": 2,
+            "gamesPlayed": 12,
+            "scoredPoints": 32,
+            "receivedPoints": 10
+          },
+          {
+            "team": {
+              "id": 1893408,
+              "logo": "https://highlightly.net/volleyball/images/teams/1893408.png",
+              "name": "Poland W"
+            },
+            "wins": 10,
+            "loses": 1,
+            "points": 30,
+            "position": 3,
+            "gamesPlayed": 11,
+            "scoredPoints": 31,
+            "receivedPoints": 5
+          },
+          {
+            "team": {
+              "id": 1891706,
+              "logo": "https://highlightly.net/volleyball/images/teams/1891706.png",
+              "name": "Japan W"
+            },
+            "wins": 8,
+            "loses": 4,
+            "points": 25,
+            "position": 4,
+            "gamesPlayed": 12,
+            "scoredPoints": 28,
+            "receivedPoints": 16
+          },
+          {
+            "team": {
+              "id": 1897663,
+              "logo": "https://highlightly.net/volleyball/images/teams/1897663.png",
+              "name": "Turkey W"
+            },
+            "wins": 8,
+            "loses": 4,
+            "points": 25,
+            "position": 5,
+            "gamesPlayed": 12,
+            "scoredPoints": 29,
+            "receivedPoints": 18
+          },
+          {
+            "team": {
+              "id": 1888302,
+              "logo": "https://highlightly.net/volleyball/images/teams/1888302.png",
+              "name": "China W"
+            },
+            "wins": 8,
+            "loses": 3,
+            "points": 23,
+            "position": 6,
+            "gamesPlayed": 11,
+            "scoredPoints": 26,
+            "receivedPoints": 14
+          },
+          {
+            "team": {
+              "id": 1898514,
+              "logo": "https://highlightly.net/volleyball/images/teams/1898514.png",
+              "name": "USA W"
+            },
+            "wins": 7,
+            "loses": 5,
+            "points": 22,
+            "position": 7,
+            "gamesPlayed": 12,
+            "scoredPoints": 27,
+            "receivedPoints": 17
+          },
+          {
+            "team": {
+              "id": 1892557,
+              "logo": "https://highlightly.net/volleyball/images/teams/1892557.png",
+              "name": "Netherlands W"
+            },
+            "wins": 7,
+            "loses": 5,
+            "points": 21,
+            "position": 8,
+            "gamesPlayed": 12,
+            "scoredPoints": 24,
+            "receivedPoints": 18
+          },
+          {
+            "team": {
+              "id": 1887451,
+              "logo": "https://highlightly.net/volleyball/images/teams/1887451.png",
+              "name": "Canada W"
+            },
+            "wins": 7,
+            "loses": 5,
+            "points": 20,
+            "position": 9,
+            "gamesPlayed": 12,
+            "scoredPoints": 24,
+            "receivedPoints": 19
+          },
+          {
+            "team": {
+              "id": 1889153,
+              "logo": "https://highlightly.net/volleyball/images/teams/1889153.png",
+              "name": "Dominican Republic W"
+            },
+            "wins": 3,
+            "loses": 9,
+            "points": 10,
+            "position": 10,
+            "gamesPlayed": 12,
+            "scoredPoints": 15,
+            "receivedPoints": 29
+          },
+          {
+            "team": {
+              "id": 1895110,
+              "logo": "https://highlightly.net/volleyball/images/teams/1895110.png",
+              "name": "Serbia W"
+            },
+            "wins": 3,
+            "loses": 9,
+            "points": 9,
+            "position": 11,
+            "gamesPlayed": 12,
+            "scoredPoints": 16,
+            "receivedPoints": 29
+          },
+          {
+            "team": {
+              "id": 1890004,
+              "logo": "https://highlightly.net/volleyball/images/teams/1890004.png",
+              "name": "Germany W"
+            },
+            "wins": 3,
+            "loses": 9,
+            "points": 9,
+            "position": 12,
+            "gamesPlayed": 12,
+            "scoredPoints": 14,
+            "receivedPoints": 28
+          },
+          {
+            "team": {
+              "id": 1896812,
+              "logo": "https://highlightly.net/volleyball/images/teams/1896812.png",
+              "name": "Thailand W"
+            },
+            "wins": 3,
+            "loses": 9,
+            "points": 7,
+            "position": 13,
+            "gamesPlayed": 12,
+            "scoredPoints": 12,
+            "receivedPoints": 32
+          },
+          {
+            "team": {
+              "id": 1985316,
+              "logo": "https://highlightly.net/volleyball/images/teams/1985316.png",
+              "name": "France W"
+            },
+            "wins": 2,
+            "loses": 10,
+            "points": 8,
+            "position": 14,
+            "gamesPlayed": 12,
+            "scoredPoints": 10,
+            "receivedPoints": 32
+          },
+          {
+            "team": {
+              "id": 1895961,
+              "logo": "https://highlightly.net/volleyball/images/teams/1895961.png",
+              "name": "South Korea W"
+            },
+            "wins": 2,
+            "loses": 10,
+            "points": 6,
+            "position": 15,
+            "gamesPlayed": 12,
+            "scoredPoints": 8,
+            "receivedPoints": 33
+          },
+          {
+            "team": {
+              "id": 1899365,
+              "logo": "https://highlightly.net/volleyball/images/teams/1899365.png",
+              "name": "Bulgaria W"
+            },
+            "wins": 2,
+            "loses": 10,
+            "points": 5,
+            "position": 16,
+            "gamesPlayed": 12,
+            "scoredPoints": 11,
+            "receivedPoints": 34
+          }
+        ]
+      }
+    ],
+    "league": {
+      "id": 157368,
+      "logo": "https://highlightly.net/volleyball/images/leagues/157368.png",
+      "name": "Nations League Women",
+      "season": 2024
+    }
+  },
+  {
+    "groups": [
+      {
+        "name": "Regular Season",
+        "standings": [
+          {
+            "team": {
+              "id": 1898514,
+              "logo": "https://highlightly.net/volleyball/images/teams/1898514.png",
+              "name": "USA W"
+            },
+            "wins": 11,
+            "loses": 1,
+            "points": 32,
+            "position": 1,
+            "gamesPlayed": 12,
+            "scoredPoints": 33,
+            "receivedPoints": 7
+          },
+          {
+            "team": {
+              "id": 1886600,
+              "logo": "https://highlightly.net/volleyball/images/teams/1886600.png",
+              "name": "Brazil W"
+            },
+            "wins": 10,
+            "loses": 2,
+            "points": 29,
+            "position": 2,
+            "gamesPlayed": 12,
+            "scoredPoints": 31,
+            "receivedPoints": 12
+          },
+          {
+            "team": {
+              "id": 1890855,
+              "logo": "https://highlightly.net/volleyball/images/teams/1890855.png",
+              "name": "Italy W"
+            },
+            "wins": 10,
+            "loses": 2,
+            "points": 29,
+            "position": 3,
+            "gamesPlayed": 12,
+            "scoredPoints": 31,
+            "receivedPoints": 13
+          },
+          {
+            "team": {
+              "id": 1888302,
+              "logo": "https://highlightly.net/volleyball/images/teams/1888302.png",
+              "name": "China W"
+            },
+            "wins": 8,
+            "loses": 4,
+            "points": 26,
+            "position": 4,
+            "gamesPlayed": 12,
+            "scoredPoints": 29,
+            "receivedPoints": 17
+          },
+          {
+            "team": {
+              "id": 1891706,
+              "logo": "https://highlightly.net/volleyball/images/teams/1891706.png",
+              "name": "Japan W"
+            },
+            "wins": 8,
+            "loses": 4,
+            "points": 25,
+            "position": 5,
+            "gamesPlayed": 12,
+            "scoredPoints": 30,
+            "receivedPoints": 16
+          },
+          {
+            "team": {
+              "id": 1895110,
+              "logo": "https://highlightly.net/volleyball/images/teams/1895110.png",
+              "name": "Serbia W"
+            },
+            "wins": 8,
+            "loses": 4,
+            "points": 23,
+            "position": 6,
+            "gamesPlayed": 12,
+            "scoredPoints": 27,
+            "receivedPoints": 20
+          },
+          {
+            "team": {
+              "id": 1897663,
+              "logo": "https://highlightly.net/volleyball/images/teams/1897663.png",
+              "name": "Turkey W"
+            },
+            "wins": 7,
+            "loses": 5,
+            "points": 23,
+            "position": 7,
+            "gamesPlayed": 12,
+            "scoredPoints": 28,
+            "receivedPoints": 18
+          },
+          {
+            "team": {
+              "id": 1896812,
+              "logo": "https://highlightly.net/volleyball/images/teams/1896812.png",
+              "name": "Thailand W"
+            },
+            "wins": 5,
+            "loses": 7,
+            "points": 15,
+            "position": 8,
+            "gamesPlayed": 12,
+            "scoredPoints": 22,
+            "receivedPoints": 25
+          },
+          {
+            "team": {
+              "id": 1889153,
+              "logo": "https://highlightly.net/volleyball/images/teams/1889153.png",
+              "name": "Dominican Republic W"
+            },
+            "wins": 5,
+            "loses": 7,
+            "points": 14,
+            "position": 9,
+            "gamesPlayed": 12,
+            "scoredPoints": 19,
+            "receivedPoints": 27
+          },
+          {
+            "team": {
+              "id": 1890004,
+              "logo": "https://highlightly.net/volleyball/images/teams/1890004.png",
+              "name": "Germany W"
+            },
+            "wins": 4,
+            "loses": 8,
+            "points": 14,
+            "position": 10,
+            "gamesPlayed": 12,
+            "scoredPoints": 20,
+            "receivedPoints": 27
+          },
+          {
+            "team": {
+              "id": 1892557,
+              "logo": "https://highlightly.net/volleyball/images/teams/1892557.png",
+              "name": "Netherlands W"
+            },
+            "wins": 4,
+            "loses": 8,
+            "points": 14,
+            "position": 11,
+            "gamesPlayed": 12,
+            "scoredPoints": 20,
+            "receivedPoints": 28
+          },
+          {
+            "team": {
+              "id": 1887451,
+              "logo": "https://highlightly.net/volleyball/images/teams/1887451.png",
+              "name": "Canada W"
+            },
+            "wins": 4,
+            "loses": 8,
+            "points": 12,
+            "position": 12,
+            "gamesPlayed": 12,
+            "scoredPoints": 17,
+            "receivedPoints": 26
+          },
+          {
+            "team": {
+              "id": 1893408,
+              "logo": "https://highlightly.net/volleyball/images/teams/1893408.png",
+              "name": "Poland W"
+            },
+            "wins": 4,
+            "loses": 8,
+            "points": 12,
+            "position": 13,
+            "gamesPlayed": 12,
+            "scoredPoints": 18,
+            "receivedPoints": 29
+          },
+          {
+            "team": {
+              "id": 1899365,
+              "logo": "https://highlightly.net/volleyball/images/teams/1899365.png",
+              "name": "Bulgaria W"
+            },
+            "wins": 4,
+            "loses": 8,
+            "points": 12,
+            "position": 14,
+            "gamesPlayed": 12,
+            "scoredPoints": 14,
+            "receivedPoints": 27
+          },
+          {
+            "team": {
+              "id": 1885749,
+              "logo": "https://highlightly.net/volleyball/images/teams/1885749.png",
+              "name": "Belgium W"
+            },
+            "wins": 4,
+            "loses": 8,
+            "points": 8,
+            "position": 15,
+            "gamesPlayed": 12,
+            "scoredPoints": 18,
+            "receivedPoints": 32
+          },
+          {
+            "team": {
+              "id": 1895961,
+              "logo": "https://highlightly.net/volleyball/images/teams/1895961.png",
+              "name": "South Korea W"
+            },
+            "wins": 0,
+            "loses": 12,
+            "points": 0,
+            "position": 16,
+            "gamesPlayed": 12,
+            "scoredPoints": 3,
+            "receivedPoints": 36
+          },
+          {
+            "team": {
+              "id": 784,
+              "logo": null,
+              "name": "UPCN"
+            },
+            "wins": 0,
+            "loses": 0,
+            "points": 0,
+            "position": 17,
+            "gamesPlayed": 0,
+            "scoredPoints": 0,
+            "receivedPoints": 0
+          }
+        ]
+      }
+    ],
+    "league": {
+      "id": 157368,
+      "logo": "https://highlightly.net/volleyball/images/leagues/157368.png",
+      "name": "Nations League Women",
+      "season": 2022
+    }
+  },
+  {
+    "groups": [
+      {
+        "name": null,
+        "standings": [
+          {
+            "team": {
+              "id": 1890855,
+              "logo": "https://highlightly.net/volleyball/images/teams/1890855.png",
+              "name": "Italy W"
+            },
+            "wins": 12,
+            "loses": 0,
+            "points": 33,
+            "position": 1,
+            "gamesPlayed": 12,
+            "scoredPoints": 36,
+            "receivedPoints": 7
+          },
+          {
+            "team": {
+              "id": 1886600,
+              "logo": "https://highlightly.net/volleyball/images/teams/1886600.png",
+              "name": "Brazil W"
+            },
+            "wins": 11,
+            "loses": 1,
+            "points": 31,
+            "position": 2,
+            "gamesPlayed": 12,
+            "scoredPoints": 33,
+            "receivedPoints": 11
+          },
+          {
+            "team": {
+              "id": 1891706,
+              "logo": "https://highlightly.net/volleyball/images/teams/1891706.png",
+              "name": "Japan W"
+            },
+            "wins": 9,
+            "loses": 3,
+            "points": 27,
+            "position": 3,
+            "gamesPlayed": 12,
+            "scoredPoints": 30,
+            "receivedPoints": 12
+          },
+          {
+            "team": {
+              "id": 1893408,
+              "logo": "https://highlightly.net/volleyball/images/teams/1893408.png",
+              "name": "Poland W"
+            },
+            "wins": 9,
+            "loses": 3,
+            "points": 27,
+            "position": 4,
+            "gamesPlayed": 12,
+            "scoredPoints": 31,
+            "receivedPoints": 15
+          },
+          {
+            "team": {
+              "id": 1888302,
+              "logo": "https://highlightly.net/volleyball/images/teams/1888302.png",
+              "name": "China W"
+            },
+            "wins": 9,
+            "loses": 3,
+            "points": 24,
+            "position": 5,
+            "gamesPlayed": 12,
+            "scoredPoints": 30,
+            "receivedPoints": 20
+          },
+          {
+            "team": {
+              "id": 1897663,
+              "logo": "https://highlightly.net/volleyball/images/teams/1897663.png",
+              "name": "Turkey W"
+            },
+            "wins": 8,
+            "loses": 4,
+            "points": 23,
+            "position": 6,
+            "gamesPlayed": 12,
+            "scoredPoints": 28,
+            "receivedPoints": 17
+          },
+          {
+            "team": {
+              "id": 1890004,
+              "logo": "https://highlightly.net/volleyball/images/teams/1890004.png",
+              "name": "Germany W"
+            },
+            "wins": 7,
+            "loses": 5,
+            "points": 23,
+            "position": 7,
+            "gamesPlayed": 12,
+            "scoredPoints": 29,
+            "receivedPoints": 22
+          },
+          {
+            "team": {
+              "id": 1898514,
+              "logo": "https://highlightly.net/volleyball/images/teams/1898514.png",
+              "name": "USA W"
+            },
+            "wins": 7,
+            "loses": 5,
+            "points": 20,
+            "position": 8,
+            "gamesPlayed": 12,
+            "scoredPoints": 26,
+            "receivedPoints": 23
+          },
+          {
+            "team": {
+              "id": 1985316,
+              "logo": "https://highlightly.net/volleyball/images/teams/1985316.png",
+              "name": "France W"
+            },
+            "wins": 5,
+            "loses": 7,
+            "points": 17,
+            "position": 9,
+            "gamesPlayed": 12,
+            "scoredPoints": 23,
+            "receivedPoints": 25
+          },
+          {
+            "team": {
+              "id": 1892557,
+              "logo": "https://highlightly.net/volleyball/images/teams/1892557.png",
+              "name": "Netherlands W"
+            },
+            "wins": 5,
+            "loses": 7,
+            "points": 15,
+            "position": 10,
+            "gamesPlayed": 12,
+            "scoredPoints": 19,
+            "receivedPoints": 27
+          },
+          {
+            "team": {
+              "id": 1979359,
+              "logo": "https://highlightly.net/volleyball/images/teams/1979359.png",
+              "name": "Czech Republic W"
+            },
+            "wins": 5,
+            "loses": 7,
+            "points": 14,
+            "position": 11,
+            "gamesPlayed": 12,
+            "scoredPoints": 21,
+            "receivedPoints": 26
+          },
+          {
+            "team": {
+              "id": 1889153,
+              "logo": "https://highlightly.net/volleyball/images/teams/1889153.png",
+              "name": "Dominican Republic W"
+            },
+            "wins": 5,
+            "loses": 7,
+            "points": 13,
+            "position": 12,
+            "gamesPlayed": 12,
+            "scoredPoints": 20,
+            "receivedPoints": 27
+          },
+          {
+            "team": {
+              "id": 1899365,
+              "logo": "https://highlightly.net/volleyball/images/teams/1899365.png",
+              "name": "Bulgaria W"
+            },
+            "wins": 4,
+            "loses": 8,
+            "points": 11,
+            "position": 13,
+            "gamesPlayed": 12,
+            "scoredPoints": 19,
+            "receivedPoints": 31
+          },
+          {
+            "team": {
+              "id": 1885749,
+              "logo": "https://highlightly.net/volleyball/images/teams/1885749.png",
+              "name": "Belgium W"
+            },
+            "wins": 4,
+            "loses": 8,
+            "points": 11,
+            "position": 14,
+            "gamesPlayed": 12,
+            "scoredPoints": 15,
+            "receivedPoints": 29
+          },
+          {
+            "team": {
+              "id": 1895110,
+              "logo": "https://highlightly.net/volleyball/images/teams/1895110.png",
+              "name": "Serbia W"
+            },
+            "wins": 3,
+            "loses": 9,
+            "points": 14,
+            "position": 15,
+            "gamesPlayed": 12,
+            "scoredPoints": 21,
+            "receivedPoints": 28
+          },
+          {
+            "team": {
+              "id": 1887451,
+              "logo": "https://highlightly.net/volleyball/images/teams/1887451.png",
+              "name": "Canada W"
+            },
+            "wins": 3,
+            "loses": 9,
+            "points": 10,
+            "position": 16,
+            "gamesPlayed": 12,
+            "scoredPoints": 19,
+            "receivedPoints": 33
+          },
+          {
+            "team": {
+              "id": 1896812,
+              "logo": "https://highlightly.net/volleyball/images/teams/1896812.png",
+              "name": "Thailand W"
+            },
+            "wins": 1,
+            "loses": 11,
+            "points": 6,
+            "position": 17,
+            "gamesPlayed": 12,
+            "scoredPoints": 11,
+            "receivedPoints": 34
+          },
+          {
+            "team": {
+              "id": 1895961,
+              "logo": "https://highlightly.net/volleyball/images/teams/1895961.png",
+              "name": "South Korea W"
+            },
+            "wins": 1,
+            "loses": 11,
+            "points": 5,
+            "position": 18,
+            "gamesPlayed": 12,
+            "scoredPoints": 11,
+            "receivedPoints": 35
+          }
+        ]
+      }
+    ],
+    "league": {
+      "id": 157368,
+      "logo": "https://highlightly.net/volleyball/images/leagues/157368.png",
+      "name": "Nations League Women",
+      "season": 2025
+    }
+  },
+  {
+    "groups": [
+      {
+        "name": "Regular Season",
+        "standings": [
+          {
+            "team": {
+              "id": 1893408,
+              "logo": "https://highlightly.net/volleyball/images/teams/1893408.png",
+              "name": "Poland W"
+            },
+            "wins": 10,
+            "loses": 2,
+            "points": 29,
+            "position": 1,
+            "gamesPlayed": 12,
+            "scoredPoints": 32,
+            "receivedPoints": 13
+          },
+          {
+            "team": {
+              "id": 1898514,
+              "logo": "https://highlightly.net/volleyball/images/teams/1898514.png",
+              "name": "USA W"
+            },
+            "wins": 10,
+            "loses": 2,
+            "points": 28,
+            "position": 2,
+            "gamesPlayed": 12,
+            "scoredPoints": 34,
+            "receivedPoints": 16
+          },
+          {
+            "team": {
+              "id": 1897663,
+              "logo": "https://highlightly.net/volleyball/images/teams/1897663.png",
+              "name": "Turkey W"
+            },
+            "wins": 9,
+            "loses": 3,
+            "points": 29,
+            "position": 3,
+            "gamesPlayed": 12,
+            "scoredPoints": 31,
+            "receivedPoints": 11
+          },
+          {
+            "team": {
+              "id": 1888302,
+              "logo": "https://highlightly.net/volleyball/images/teams/1888302.png",
+              "name": "China W"
+            },
+            "wins": 8,
+            "loses": 4,
+            "points": 24,
+            "position": 4,
+            "gamesPlayed": 12,
+            "scoredPoints": 29,
+            "receivedPoints": 19
+          },
+          {
+            "team": {
+              "id": 1886600,
+              "logo": "https://highlightly.net/volleyball/images/teams/1886600.png",
+              "name": "Brazil W"
+            },
+            "wins": 8,
+            "loses": 4,
+            "points": 24,
+            "position": 5,
+            "gamesPlayed": 12,
+            "scoredPoints": 28,
+            "receivedPoints": 18
+          },
+          {
+            "team": {
+              "id": 1890855,
+              "logo": "https://highlightly.net/volleyball/images/teams/1890855.png",
+              "name": "Italy W"
+            },
+            "wins": 8,
+            "loses": 4,
+            "points": 21,
+            "position": 6,
+            "gamesPlayed": 12,
+            "scoredPoints": 29,
+            "receivedPoints": 23
+          },
+          {
+            "team": {
+              "id": 1891706,
+              "logo": "https://highlightly.net/volleyball/images/teams/1891706.png",
+              "name": "Japan W"
+            },
+            "wins": 7,
+            "loses": 5,
+            "points": 21,
+            "position": 7,
+            "gamesPlayed": 12,
+            "scoredPoints": 27,
+            "receivedPoints": 20
+          },
+          {
+            "team": {
+              "id": 1890004,
+              "logo": "https://highlightly.net/volleyball/images/teams/1890004.png",
+              "name": "Germany W"
+            },
+            "wins": 7,
+            "loses": 5,
+            "points": 20,
+            "position": 8,
+            "gamesPlayed": 12,
+            "scoredPoints": 26,
+            "receivedPoints": 23
+          },
+          {
+            "team": {
+              "id": 1895110,
+              "logo": "https://highlightly.net/volleyball/images/teams/1895110.png",
+              "name": "Serbia W"
+            },
+            "wins": 6,
+            "loses": 6,
+            "points": 19,
+            "position": 9,
+            "gamesPlayed": 12,
+            "scoredPoints": 27,
+            "receivedPoints": 27
+          },
+          {
+            "team": {
+              "id": 1887451,
+              "logo": "https://highlightly.net/volleyball/images/teams/1887451.png",
+              "name": "Canada W"
+            },
+            "wins": 6,
+            "loses": 6,
+            "points": 18,
+            "position": 10,
+            "gamesPlayed": 12,
+            "scoredPoints": 24,
+            "receivedPoints": 24
+          },
+          {
+            "team": {
+              "id": 1889153,
+              "logo": "https://highlightly.net/volleyball/images/teams/1889153.png",
+              "name": "Dominican Republic W"
+            },
+            "wins": 6,
+            "loses": 6,
+            "points": 14,
+            "position": 11,
+            "gamesPlayed": 12,
+            "scoredPoints": 25,
+            "receivedPoints": 28
+          },
+          {
+            "team": {
+              "id": 1892557,
+              "logo": "https://highlightly.net/volleyball/images/teams/1892557.png",
+              "name": "Netherlands W"
+            },
+            "wins": 5,
+            "loses": 7,
+            "points": 18,
+            "position": 12,
+            "gamesPlayed": 12,
+            "scoredPoints": 23,
+            "receivedPoints": 22
+          },
+          {
+            "team": {
+              "id": 1899365,
+              "logo": "https://highlightly.net/volleyball/images/teams/1899365.png",
+              "name": "Bulgaria W"
+            },
+            "wins": 2,
+            "loses": 10,
+            "points": 9,
+            "position": 13,
+            "gamesPlayed": 12,
+            "scoredPoints": 14,
+            "receivedPoints": 31
+          },
+          {
+            "team": {
+              "id": 1896812,
+              "logo": "https://highlightly.net/volleyball/images/teams/1896812.png",
+              "name": "Thailand W"
+            },
+            "wins": 2,
+            "loses": 10,
+            "points": 8,
+            "position": 14,
+            "gamesPlayed": 12,
+            "scoredPoints": 11,
+            "receivedPoints": 30
+          },
+          {
+            "team": {
+              "id": 1976806,
+              "logo": "https://highlightly.net/volleyball/images/teams/1976806.png",
+              "name": "Croatia W"
+            },
+            "wins": 2,
+            "loses": 10,
+            "points": 6,
+            "position": 15,
+            "gamesPlayed": 12,
+            "scoredPoints": 8,
+            "receivedPoints": 30
+          },
+          {
+            "team": {
+              "id": 1895961,
+              "logo": "https://highlightly.net/volleyball/images/teams/1895961.png",
+              "name": "South Korea W"
+            },
+            "wins": 0,
+            "loses": 12,
+            "points": 0,
+            "position": 16,
+            "gamesPlayed": 12,
+            "scoredPoints": 3,
+            "receivedPoints": 36
+          }
+        ]
+      }
+    ],
+    "league": {
+      "id": 157368,
+      "logo": "https://highlightly.net/volleyball/images/leagues/157368.png",
+      "name": "Nations League Women",
+      "season": 2023
+    }
+  },
+  {
+    "groups": [
+      {
+        "name": null,
+        "standings": [
+          {
+            "team": {
+              "id": 1898514,
+              "logo": "https://highlightly.net/volleyball/images/teams/1898514.png",
+              "name": "USA Women"
+            },
+            "wins": 10,
+            "loses": 2,
+            "points": 29,
+            "position": 1,
+            "gamesPlayed": 12,
+            "scoredPoints": 32,
+            "receivedPoints": 11
+          },
+          {
+            "team": {
+              "id": 1890855,
+              "logo": "https://highlightly.net/volleyball/images/teams/1890855.png",
+              "name": "Italy Women"
+            },
+            "wins": 10,
+            "loses": 2,
+            "points": 28,
+            "position": 2,
+            "gamesPlayed": 12,
+            "scoredPoints": 32,
+            "receivedPoints": 14
+          },
+          {
+            "team": {
+              "id": 1886600,
+              "logo": "https://highlightly.net/volleyball/images/teams/1886600.png",
+              "name": "Brazil Women"
+            },
+            "wins": 9,
+            "loses": 3,
+            "points": 26,
+            "position": 3,
+            "gamesPlayed": 12,
+            "scoredPoints": 29,
+            "receivedPoints": 18
+          },
+          {
+            "team": {
+              "id": 1897663,
+              "logo": "https://highlightly.net/volleyball/images/teams/1897663.png",
+              "name": "Turkey Women"
+            },
+            "wins": 9,
+            "loses": 3,
+            "points": 25,
+            "position": 4,
+            "gamesPlayed": 12,
+            "scoredPoints": 30,
+            "receivedPoints": 19
+          },
+          {
+            "team": {
+              "id": 1887451,
+              "logo": "https://highlightly.net/volleyball/images/teams/1887451.png",
+              "name": "Canada Women"
+            },
+            "wins": 8,
+            "loses": 4,
+            "points": 24,
+            "position": 5,
+            "gamesPlayed": 12,
+            "scoredPoints": 30,
+            "receivedPoints": 21
+          },
+          {
+            "team": {
+              "id": 1891706,
+              "logo": "https://highlightly.net/volleyball/images/teams/1891706.png",
+              "name": "Japan Women"
+            },
+            "wins": 8,
+            "loses": 4,
+            "points": 21,
+            "position": 6,
+            "gamesPlayed": 12,
+            "scoredPoints": 27,
+            "receivedPoints": 21
+          },
+          {
+            "team": {
+              "id": 1892557,
+              "logo": "https://highlightly.net/volleyball/images/teams/1892557.png",
+              "name": "Netherlands Women"
+            },
+            "wins": 7,
+            "loses": 5,
+            "points": 21,
+            "position": 7,
+            "gamesPlayed": 12,
+            "scoredPoints": 24,
+            "receivedPoints": 15
+          },
+          {
+            "team": {
+              "id": 1893408,
+              "logo": "https://highlightly.net/volleyball/images/teams/1893408.png",
+              "name": "Poland Women"
+            },
+            "wins": 7,
+            "loses": 5,
+            "points": 20,
+            "position": 8,
+            "gamesPlayed": 12,
+            "scoredPoints": 28,
+            "receivedPoints": 23
+          },
+          {
+            "team": {
+              "id": 1888302,
+              "logo": "https://highlightly.net/volleyball/images/teams/1888302.png",
+              "name": "China Women"
+            },
+            "wins": 6,
+            "loses": 6,
+            "points": 19,
+            "position": 9,
+            "gamesPlayed": 12,
+            "scoredPoints": 26,
+            "receivedPoints": 23
+          },
+          {
+            "team": {
+              "id": 1979359,
+              "logo": "https://highlightly.net/volleyball/images/teams/1979359.png",
+              "name": "Czech Republic Women"
+            },
+            "wins": 6,
+            "loses": 6,
+            "points": 16,
+            "position": 10,
+            "gamesPlayed": 12,
+            "scoredPoints": 19,
+            "receivedPoints": 23
+          },
+          {
+            "team": {
+              "id": 1895110,
+              "logo": "https://highlightly.net/volleyball/images/teams/1895110.png",
+              "name": "Serbia Women"
+            },
+            "wins": 5,
+            "loses": 7,
+            "points": 20,
+            "position": 11,
+            "gamesPlayed": 12,
+            "scoredPoints": 26,
+            "receivedPoints": 21
+          },
+          {
+            "team": {
+              "id": 1890004,
+              "logo": "https://highlightly.net/volleyball/images/teams/1890004.png",
+              "name": "Germany Women"
+            },
+            "wins": 5,
+            "loses": 7,
+            "points": 17,
+            "position": 12,
+            "gamesPlayed": 12,
+            "scoredPoints": 21,
+            "receivedPoints": 25
+          },
+          {
+            "team": {
+              "id": 1885749,
+              "logo": "https://highlightly.net/volleyball/images/teams/1885749.png",
+              "name": "Belgium Women"
+            },
+            "wins": 4,
+            "loses": 8,
+            "points": 10,
+            "position": 13,
+            "gamesPlayed": 12,
+            "scoredPoints": 17,
+            "receivedPoints": 32
+          },
+          {
+            "team": {
+              "id": 1896812,
+              "logo": "https://highlightly.net/volleyball/images/teams/1896812.png",
+              "name": "Thailand Women"
+            },
+            "wins": 3,
+            "loses": 9,
+            "points": 12,
+            "position": 14,
+            "gamesPlayed": 12,
+            "scoredPoints": 17,
+            "receivedPoints": 28
+          },
+          {
+            "team": {
+              "id": 1889153,
+              "logo": "https://highlightly.net/volleyball/images/teams/1889153.png",
+              "name": "Dominican Republic Women"
+            },
+            "wins": 3,
+            "loses": 9,
+            "points": 11,
+            "position": 15,
+            "gamesPlayed": 12,
+            "scoredPoints": 17,
+            "receivedPoints": 31
+          },
+          {
+            "team": {
+              "id": 2013399,
+              "logo": "https://highlightly.net/volleyball/images/teams/2013399.png",
+              "name": "Ukraine Women"
+            },
+            "wins": 3,
+            "loses": 9,
+            "points": 10,
+            "position": 16,
+            "gamesPlayed": 12,
+            "scoredPoints": 18,
+            "receivedPoints": 31
+          },
+          {
+            "team": {
+              "id": 1985316,
+              "logo": "https://highlightly.net/volleyball/images/teams/1985316.png",
+              "name": "France Women"
+            },
+            "wins": 3,
+            "loses": 9,
+            "points": 10,
+            "position": 17,
+            "gamesPlayed": 12,
+            "scoredPoints": 17,
+            "receivedPoints": 32
+          },
+          {
+            "team": {
+              "id": 1899365,
+              "logo": "https://highlightly.net/volleyball/images/teams/1899365.png",
+              "name": "Bulgaria Women"
+            },
+            "wins": 2,
+            "loses": 10,
+            "points": 5,
+            "position": 18,
+            "gamesPlayed": 12,
+            "scoredPoints": 10,
+            "receivedPoints": 32
+          }
+        ]
+      }
+    ],
+    "league": {
+      "id": 157368,
+      "logo": "https://highlightly.net/volleyball/images/leagues/157368.png",
+      "name": "Nations League Women",
+      "season": 2026
+    }
+  }
+]

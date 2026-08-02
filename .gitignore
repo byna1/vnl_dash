@@ -1,0 +1,15 @@
+*.csv
+*.db
+*.png
+Key.py
+LICENSE
+m_key.py
+__pycache__/
+.env
+.svg
+.json
+data/bronze/*.json
+data/bronze/*.sqlitedata/bronze/
+Key.py
+*.sqlite
+*.pbix
