@@ -13,3 +13,4 @@ data/bronze/*.sqlitedata/bronze/
 Key.py
 *.sqlite
 *.pbix
+*.parquet
