@@ -20,7 +20,7 @@ tb_leagues AS (
 
 tb_join AS (
     SELECT
-        t1.league_id,
+        t1.league_id AS League_id,
         t1.league_name,
         CASE WHEN t1.country_id = 'World' THEN 'International' ELSE 'National' END AS league_type,
         t1.league_naipe,

@@ -20,11 +20,11 @@ tb_join
 AS
 
 (SELECT
-    t1.team_id,
+    t1.team_id AS Team_id,
     TRIM(REPLACE(t1.team_name, 'Women', '')) AS team_name,
     CASE WHEN t1.team_name LIKE '%Women%' THEN 'Women' ELSE 'Men' END AS team_naipe,
     CASE WHEN t3.country_code IS NOT NULL THEN 'National Team' ELSE 'Club' END AS team_type,
-    COALESCE(t2.country_code, t3.country_code) AS country_code
+    COALESCE(t2.country_code, t3.country_code) AS country_id
 FROM teams t1
 LEFT JOIN team_country t2
     ON t1.team_id = t2.team_id
@@ -40,7 +40,7 @@ AS
 SELECT * 
 FROM tb_join
 -- Clubs from other classes than adults were removed also, clubs where the leagues do not have any matches on the bank were removed.
-WHERE country_code IS NOT NULL
+WHERE country_id IS NOT NULL
 -- Puerto Rico was removed manually: it's a city club with no registered national league on the base,
 -- and it also can't be treated as a US national team.
 AND team_id <> '1904471')

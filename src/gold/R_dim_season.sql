@@ -30,7 +30,7 @@ with_max_season AS (
 
 tb_gn AS (
     SELECT
-        league_season_id,
+        league_season_id AS League_season_id,
         league_id,
         league_season,
         season_start_date,

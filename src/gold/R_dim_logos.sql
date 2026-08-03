@@ -7,8 +7,7 @@ WITH tb_team AS (
 )
 
 SELECT
-    t1.team_id,
-    t1.team_name,
+    t1.team_id AS Team_id,
     COALESCE(t2.country_logo, t1.team_logo) AS logo_final
 FROM tb_team AS t1
 LEFT JOIN countries AS t2
