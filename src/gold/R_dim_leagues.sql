@@ -22,7 +22,7 @@ tb_join AS (
     SELECT
         t1.league_id AS League_id,
         t1.league_name,
-        CASE WHEN t1.country_id = 'World' THEN 'International' ELSE 'National' END AS league_type,
+        CASE WHEN t1.country_id = 'World' THEN 'International' ELSE 'National' END AS geo_aggreg,
         t1.league_naipe,
         t1.country_id
     FROM tb_leagues t1
@@ -30,6 +30,6 @@ tb_join AS (
 
 SELECT *
 FROM tb_join
-WHERE league_type = 'National'
+WHERE geo_aggreg= 'National'
 OR league_name IN ('World Championship', 'Olympic Games', 'Nations League')
 ORDER BY league_id
