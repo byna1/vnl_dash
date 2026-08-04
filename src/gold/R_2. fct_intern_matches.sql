@@ -17,8 +17,9 @@ tb_match AS (
         fifth_set_home_team_score,  fifth_set_away_team_score
     FROM matches
     WHERE description = 'Finished'
-        AND country_name NOT IN ('Europe','South America','North America','Africa','Oceania')
-        AND country_code = 'World'   -- INTERNATIONAL
+        AND TRIM(REPLACE(league_name, 'Women', '')) IN
+          ('Nations League', 'World Championship', 'Olympic Games')
+   -- This is a intenrational table, so just the competitions analysed were filtered.
 ),
 
 tb_deltas AS (
@@ -49,9 +50,8 @@ tb_join AS (
         t1.awayTeam_id,
         t2.match_winner,
         t1.match_status,
-        t1.current_home_team_score,
-        t1.current_away_team_score,
-        t1.firstSet_home_team_score,  t1.firstSet_away_team_score,
+        t1.current_home_team_score,    t1.current_away_team_score,
+        t1.firstSet_home_team_score,   t1.firstSet_away_team_score,
         t1.second_set_home_team_score, t1.second_set_away_team_score,
         t1.third_set_home_team_score,  t1.third_set_away_team_score,
         t1.fourth_set_home_team_score, t1.fourth_set_away_team_score,

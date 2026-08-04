@@ -18,8 +18,11 @@ tb_matches_scored AS (
     
     FROM matches
     WHERE description = 'Finished'
-        AND country_name NOT IN ('Europe','South America','North America','Africa','Oceania') -- removing also the matches between clubs in the continent
-        AND country_code = 'World' -- This is the international version, so we are removing the national matches
+        AND country_name = 'World'
+          AND TRIM(REPLACE(league_name, 'Women', '')) IN
+          ('Nations League', 'World Championship', 'Olympic Games')
+
+        -- This is the international version, so we are removing the national matches
 ),
 
 tb_matches_melted AS (
@@ -110,4 +113,4 @@ SELECT
     sets_won,
     sets_lost
 FROM tb_orders
-ORDER BY match_id, team_id
+ORDER BY league_season_id, match_id, team_id
