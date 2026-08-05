@@ -35,7 +35,8 @@ tb_sets AS (
     FROM tb_scope t1
 ),
 
--- One row per (team, match): win flag, match points (3-2-1-0), sets, phase
+-- I chose to put the points as the FIVB, cause its the most used standart for standings
+
 tb_melted AS (
     SELECT match_id, league_id, league_season, league_season_id, match_week,
         homeTeam_id AS team_id,
@@ -66,7 +67,7 @@ tb_melted AS (
     FROM tb_sets
 ),
 
--- Preliminary standings per team-tournament (FIVB order: wins > points > set ratio)
+-- Preliminary standings per team-tournament (FIVB order: wins -> points -> set ratio)
 tb_prelim AS (
     SELECT team_id, league_id, league_season, league_season_id,
         SUM(is_win) AS wins, SUM(1 - is_win) AS loses, SUM(match_points) AS points,
@@ -77,7 +78,7 @@ tb_prelim AS (
     GROUP BY team_id, league_id, league_season, league_season_id
 ),
 
--- Deepest knockout stage reached
+-- Longer each team went in competitions
 tb_knockout AS (
     SELECT team_id, league_season_id,
         MAX(CASE WHEN match_week LIKE '%Final%' AND match_week NOT LIKE '%Semi%'
@@ -93,6 +94,7 @@ tb_knockout AS (
 ),
 
 -- Preliminary rank + knockout flag
+
 tb_ranked AS (
     SELECT t1.*,
         ROW_NUMBER() OVER (PARTITION BY t1.league_season_id
@@ -103,6 +105,7 @@ tb_ranked AS (
 ),
 
 -- Group-eliminated teams: rank + count for median split
+
 tb_split AS (
     SELECT league_season_id, team_id,
         ROW_NUMBER() OVER (PARTITION BY league_season_id
@@ -113,18 +116,19 @@ tb_split AS (
 ),
 
 -- Teams that actually played, with their strength level/cluster
+
 tb_played AS (
     SELECT
         t1.league_season_id, t1.league_id, t1.team_id, t1.league_season,
         t1.wins, t1.loses, t1.points, t1.sets_won, t1.sets_lost, t1.set_ratio, t1.prelim_position,
         CASE
-            WHEN t2.won_final = 1 THEN 1
-            WHEN t2.lost_final = 1 THEN 2
-            WHEN t2.won_bronze = 1 THEN 3
-            WHEN t2.lost_bronze = 1 THEN 4
-            WHEN t2.played_qf = 1 THEN 5
-            WHEN t3.elim_rank <= t3.n_elim / 2 THEN 6
-            ELSE 7 END AS strength_level,
+            WHEN t2.won_final = 1 THEN 8
+            WHEN t2.lost_final = 1 THEN 7
+            WHEN t2.won_bronze = 1 THEN 6
+            WHEN t2.lost_bronze = 1 THEN 5
+            WHEN t2.played_qf = 1 THEN 4
+            WHEN t3.elim_rank <= t3.n_elim / 2 THEN 3
+            ELSE 2 END AS strength_level,
         CASE
             WHEN t2.won_final = 1 THEN 'gold'
             WHEN t2.lost_final = 1 THEN 'silver'
@@ -137,8 +141,6 @@ tb_played AS (
     LEFT JOIN tb_knockout t2 ON t1.team_id = t2.team_id AND t1.league_season_id = t2.league_season_id
     LEFT JOIN tb_split t3 ON t1.team_id = t3.team_id AND t1.league_season_id = t3.league_season_id
 ),
-
--- ===== Universe of national teams eligible for "not_present" =====
 
 -- National leagues by country + gender (gender derived from league name)
 tb_nat_leagues AS (
@@ -203,7 +205,7 @@ tb_final AS (
         COALESCE(t2.sets_won, 0) AS sets_won,
         COALESCE(t2.sets_lost, 0) AS sets_lost,
         t2.set_ratio,
-        COALESCE(t2.strength_level, 8) AS strength_level,
+        COALESCE(t2.strength_level, 1) AS strength_level,
         COALESCE(t2.strength_cluster, 'not_present') AS strength_cluster
     FROM tb_grid t1
     LEFT JOIN tb_played t2
@@ -212,4 +214,4 @@ tb_final AS (
 
 SELECT *
 FROM tb_final
-ORDER BY League_season_id, strength_level, rank_position
+ORDER BY League_season_id, strength_level DESC, rank_position

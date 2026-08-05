@@ -1,3 +1,6 @@
+
+-- this is to determin if the league has a final or not
+
 WITH season_agg AS (
     SELECT
         CONCAT(t1.league_id, '_', t1.league_season) AS league_season_id,
@@ -19,6 +22,9 @@ WITH season_agg AS (
         AND t1.league_season = t2.league_season
     GROUP BY t1.league_id, t1.league_season
 ),
+
+-- this is partitioning by leagues, because we have to determin
+-- the most recent season in order to analyse if it was finished or not
 
 with_max_season AS (
     SELECT
@@ -42,9 +48,16 @@ tb_gn AS (
             ELSE NULL
         END AS season_end_date
     FROM with_max_season
-)
+),
 
-SELECT*,
+tb_agreg
+
+AS
+
+(SELECT*,
     CASE WHEN season_end_date IS NOT NULL THEN 'Finished' ELSE 'Not Finished' END AS season_status
 FROM tb_gn
-ORDER BY league_id, league_season
+ORDER BY league_id, league_season)
+
+SELECT * 
+FROM tb_agreg
