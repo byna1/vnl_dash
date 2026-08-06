@@ -122,13 +122,13 @@ tb_played AS (
         t1.league_season_id, t1.league_id, t1.team_id, t1.league_season,
         t1.wins, t1.loses, t1.points, t1.sets_won, t1.sets_lost, t1.set_ratio, t1.prelim_position,
         CASE
-            WHEN t2.won_final = 1 THEN 8
-            WHEN t2.lost_final = 1 THEN 7
-            WHEN t2.won_bronze = 1 THEN 6
-            WHEN t2.lost_bronze = 1 THEN 5
-            WHEN t2.played_qf = 1 THEN 4
-            WHEN t3.elim_rank <= t3.n_elim / 2 THEN 3
-            ELSE 2 END AS strength_level,
+            WHEN t2.won_final = 1 THEN 1
+            WHEN t2.lost_final = 1 THEN 2
+            WHEN t2.won_bronze = 1 THEN 3
+            WHEN t2.lost_bronze = 1 THEN 4
+            WHEN t2.played_qf = 1 THEN 5
+            WHEN t3.elim_rank <= t3.n_elim / 2 THEN 6
+            ELSE 7 END AS strength_level,
         CASE
             WHEN t2.won_final = 1 THEN 'gold'
             WHEN t2.lost_final = 1 THEN 'silver'
@@ -194,6 +194,7 @@ tb_grid AS (
 ),
 
 -- Left join played onto the grid; teams with no match that season = not_present
+
 tb_final AS (
     SELECT
         t1.league_season_id AS League_season_id,
@@ -205,8 +206,14 @@ tb_final AS (
         COALESCE(t2.sets_won, 0) AS sets_won,
         COALESCE(t2.sets_lost, 0) AS sets_lost,
         t2.set_ratio,
-        COALESCE(t2.strength_level, 1) AS strength_level,
-        COALESCE(t2.strength_cluster, 'not_present') AS strength_cluster
+        COALESCE(t2.strength_level, 8) AS strength_level,
+        COALESCE(t2.strength_cluster, 'not_present') AS strength_cluster,
+        CASE 
+            WHEN strength_cluster IN ('gold', 'silver', 'bronze') THEN 'podium'
+            WHEN strength_cluster IN ('preliminary_top', 'preliminary_bottom') THEN 'preliminary'
+            WHEN strength_cluster IN ('4th_place', '4th_place') THEN '4th_place'
+            ELSE 'not_present'
+        END AS grouped_strenght_cluster
     FROM tb_grid t1
     LEFT JOIN tb_played t2
         ON t1.team_id = t2.team_id AND t1.league_season_id = t2.league_season_id
@@ -214,4 +221,4 @@ tb_final AS (
 
 SELECT *
 FROM tb_final
-ORDER BY League_season_id, strength_level DESC, rank_position
+ORDER BY League_season_id, strength_level, rank_position

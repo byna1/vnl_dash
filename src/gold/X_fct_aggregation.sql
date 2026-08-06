@@ -76,6 +76,7 @@ GROUP BY t3.country_id, t3.league_naipe)
 
 
 SELECT
+    CONCAT(t1.country_id,'_',t1.league_naipe) AS country_naipe_id,
     t1.country_id,
     t1.league_naipe,
     COALESCE(t3.forca_selecao, 8) AS nat_team_strenght,

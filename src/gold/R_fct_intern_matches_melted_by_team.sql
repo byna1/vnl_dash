@@ -14,7 +14,29 @@ tb_matches_scored AS (
     + CASE WHEN second_set_away_team_score > second_set_home_team_score THEN 1 ELSE 0 END
     + CASE WHEN third_set_away_team_score  > third_set_home_team_score  THEN 1 ELSE 0 END
     + CASE WHEN fourth_set_away_team_score > fourth_set_home_team_score THEN 1 ELSE 0 END
-    + CASE WHEN fifth_set_away_team_score  > fifth_set_home_team_score  THEN 1 ELSE 0 END) AS away_sets_won
+    + CASE WHEN fifth_set_away_team_score  > fifth_set_home_team_score  THEN 1 ELSE 0 END) AS away_sets_won,
+
+    (CASE WHEN ABS(firstSet_home_team_score  - firstSet_away_team_score)  <= 3 
+        AND firstSet_home_team_score  > firstSet_away_team_score THEN 1 ELSE 0 END
+    + CASE WHEN ABS(second_set_home_team_score - second_set_away_team_score) <= 3 
+        AND second_set_home_team_score > second_set_away_team_score THEN 1 ELSE 0 END
+    + CASE WHEN ABS(third_set_home_team_score  - third_set_away_team_score)  <= 3 
+        AND third_set_home_team_score  > third_set_away_team_score THEN 1 ELSE 0 END
+    + CASE WHEN ABS(fourth_set_home_team_score - fourth_set_away_team_score) <= 3 
+        AND fourth_set_home_team_score > fourth_set_away_team_score THEN 1 ELSE 0 END
+    + CASE WHEN ABS(fifth_set_home_team_score  - fifth_set_away_team_score)  <= 3 
+        AND fifth_set_home_team_score  > fifth_set_away_team_score THEN 1 ELSE 0 END) AS n_tight_sets_home_sets_won,
+
+        (CASE WHEN ABS(firstSet_home_team_score  - firstSet_away_team_score)  <= 3 
+        AND firstSet_home_team_score  < firstSet_away_team_score THEN 1 ELSE 0 END
+    + CASE WHEN ABS(second_set_home_team_score - second_set_away_team_score) <= 3 
+        AND second_set_home_team_score < second_set_away_team_score THEN 1 ELSE 0 END
+    + CASE WHEN ABS(third_set_home_team_score  - third_set_away_team_score)  <= 3 
+        AND third_set_home_team_score  < third_set_away_team_score THEN 1 ELSE 0 END
+    + CASE WHEN ABS(fourth_set_home_team_score - fourth_set_away_team_score) <= 3 
+        AND fourth_set_home_team_score < fourth_set_away_team_score THEN 1 ELSE 0 END
+    + CASE WHEN ABS(fifth_set_home_team_score  - fifth_set_away_team_score)  <= 3 
+        AND fifth_set_home_team_score  < fifth_set_away_team_score THEN 1 ELSE 0 END) AS n_tight_sets_away_sets_won        
     
     FROM matches
     WHERE description = 'Finished'
@@ -45,7 +67,8 @@ tb_matches_melted AS (
         fourth_set_home_team_score AS fourth_set_score,
         fifth_set_home_team_score AS fifth_set_score,
         description AS match_status,
-        home_result AS team_result
+        home_result AS team_result,
+        n_tight_sets_home_sets_won AS n_tight_sets
     FROM tb_matches_scored
     UNION ALL
     SELECT
@@ -67,7 +90,8 @@ tb_matches_melted AS (
         fourth_set_away_team_score AS fourth_set_score,
         fifth_set_away_team_score AS fifth_set_score,
         description AS match_status,
-        away_result AS team_result
+        away_result AS team_result,
+        n_tight_sets_away_sets_won AS n_tight_sets
     FROM tb_matches_scored
 ),
 
@@ -111,6 +135,7 @@ SELECT
     match_order_champ,
     match_order_finals,
     sets_won,
-    sets_lost
+    sets_lost,
+    n_tight_sets
 FROM tb_orders
 ORDER BY league_season_id, match_id, team_id

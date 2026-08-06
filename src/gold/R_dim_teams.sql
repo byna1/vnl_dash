@@ -44,5 +44,8 @@ FROM tb_join
 -- resulted as null and were removed
 WHERE country_id IS NOT NULL)
 
-SELECT *
-FROM tb_removed_scope
+SELECT 
+    CONCAT(country_id,'_',team_naipe) AS country_naipe_id,
+    t1.*
+FROM tb_removed_scope t1
+ORDER BY country_naipe_id
