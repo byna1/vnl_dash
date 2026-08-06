@@ -184,32 +184,44 @@ AS
 WHERE reached_finals = 0
 ),
 
--- Teams that actually played, with their strength level/cluster
+-- turning the standings into a strength level: 1 = gold ... 7 = preliminary_bottom (8 = not_present comes later)
 
-tb_played AS (
-    SELECT
-        t1.league_season_id, t1.league_id, t1.team_id, t1.league_season,
-        t1.wins, t1.loses, t1.points, t1.sets_won, t1.sets_lost, t1.set_ratio, t1.prelim_position,
-        CASE
-            WHEN t2.won_final = 1 THEN 1
-            WHEN t2.lost_final = 1 THEN 2
-            WHEN t2.won_bronze = 1 THEN 3
-            WHEN t2.lost_bronze = 1 THEN 4
-            WHEN t2.played_qf = 1 THEN 5
-            WHEN t3.elim_rank <= t3.n_elim / 2 THEN 6
-            ELSE 7 END AS strength_level,
-        CASE
-            WHEN t2.won_final = 1 THEN 'gold'
-            WHEN t2.lost_final = 1 THEN 'silver'
-            WHEN t2.won_bronze = 1 THEN 'bronze'
-            WHEN t2.lost_bronze = 1 THEN '4th_place'
-            WHEN t2.played_qf = 1 THEN 'quarter_finalist'
-            WHEN t3.elim_rank <= t3.n_elim / 2 THEN 'preliminary_top'
-            ELSE 'preliminary_bottom' END AS strength_cluster
-    FROM tb_ranked t1
-    LEFT JOIN tb_knockout t2 ON t1.team_id = t2.team_id AND t1.league_season_id = t2.league_season_id
-    LEFT JOIN tb_split t3 ON t1.team_id = t3.team_id AND t1.league_season_id = t3.league_season_id
-),
+tb_team_strength
+
+AS
+
+(SELECT 
+    t1.league_season_id,
+    t1.team_id,
+    t1.prelim_position,
+    t1.games_won,
+    t1.match_points,
+    t1.sets_won,
+    t1.sets_lost,
+    t1.set_ratio,
+    CASE
+        WHEN t2.won_final = 1 THEN 1
+        WHEN t2.lost_final = 1 THEN 2
+        WHEN t2.won_bronze = 1 THEN 3
+        WHEN t2.lost_bronze = 1 THEN 4
+        WHEN t2.played_qf = 1 THEN 5
+        WHEN t3.elim_rank <= t3.n_elim / 2 THEN 6 -- top half of the teams that stayed in the group stage
+        ELSE 7 END AS strength_level,
+    CASE
+        WHEN t2.won_final = 1 THEN 'gold'
+        WHEN t2.lost_final = 1 THEN 'silver'
+        WHEN t2.won_bronze = 1 THEN 'bronze'
+        WHEN t2.lost_bronze = 1 THEN '4th_place'
+        WHEN t2.played_qf = 1 THEN 'quarter_finalist'
+        WHEN t3.elim_rank <= t3.n_elim / 2 THEN 'preliminary_top'
+        ELSE 'preliminary_bottom' END AS strength_cluster
+FROM tb_prel_ranking t1
+LEFT JOIN tb_finals t2 
+ON t1.team_id = t2.team_id 
+AND t1.league_season_id = t2.league_season_id
+LEFT JOIN tb_eliminated_ranking t3 
+ON t1.team_id = t3.team_id 
+AND t1.league_season_id = t3.league_season_id),
 
 -- countries that actually run a domestic league, split by naipe
 
@@ -274,39 +286,34 @@ AS
     league_naipe
 FROM tb_melted),
 
--- Every eligible team crossed with every tournament-season (ids carry gender, so cross is gender-safe)
-tb_grid AS (
-    SELECT t1.team_id, t2.league_season_id, t2.league_id, t2.league_season
-    FROM tb_universe t1
-    CROSS JOIN tb_tournaments t2
-),
+-- grid of who SHOULD be in each tournament: join by naipe so a team is only expected in editions of its own gender
+-- this INNER JOIN (instead of a cross join) is what stops women teams leaking as not_present in men tournaments and vice versa
 
--- Left join played onto the grid; teams with no match that season = not_present
+tb_grid
 
-tb_final AS (
-    SELECT
-        t1.league_season_id AS League_season_id,
-        t1.team_id AS Team_id,
-        t2.prelim_position AS rank_position,
-        COALESCE(t2.wins, 0)  AS wins,
-        COALESCE(t2.loses, 0) AS loses,
-        COALESCE(t2.points, 0) AS points,
-        COALESCE(t2.sets_won, 0) AS sets_won,
-        COALESCE(t2.sets_lost, 0) AS sets_lost,
-        t2.set_ratio,
-        COALESCE(t2.strength_level, 8) AS strength_level,
-        COALESCE(t2.strength_cluster, 'not_present') AS strength_cluster,
-        CASE 
-            WHEN strength_cluster IN ('gold', 'silver', 'bronze') THEN 'podium'
-            WHEN strength_cluster IN ('preliminary_top', 'preliminary_bottom') THEN 'preliminary'
-            WHEN strength_cluster IN ('4th_place', '4th_place') THEN '4th_place'
-            ELSE 'not_present'
-        END AS grouped_strenght_cluster
-    FROM tb_grid t1
-    LEFT JOIN tb_played t2
-        ON t1.team_id = t2.team_id AND t1.league_season_id = t2.league_season_id
-)
+AS
 
-SELECT *
-FROM tb_final
+(SELECT 
+    t1.team_id,
+    t2.league_season_id
+FROM tb_eligible_teams t1
+INNER JOIN tb_tournaments t2
+    ON t1.naipe = t2.league_naipe)
+
+
+SELECT 
+    t1.league_season_id AS League_season_id,
+    t1.team_id AS Team_id,
+    t2.prelim_position AS rank_position,
+    COALESCE(t2.games_won, 0)   AS games_won,
+    COALESCE(t2.match_points, 0) AS match_points,
+    COALESCE(t2.sets_won, 0)    AS sets_won,
+    COALESCE(t2.sets_lost, 0)   AS sets_lost,
+    t2.set_ratio,
+    COALESCE(t2.strength_level, 8)              AS strength_level,
+    COALESCE(t2.strength_cluster, 'not_present') AS strength_cluster -- eligible team that skipped this edition gets the worst level, penalizing inconsistency across the years
+FROM tb_grid t1
+LEFT JOIN tb_team_strength t2
+    ON t1.team_id = t2.team_id 
+    AND t1.league_season_id = t2.league_season_id
 ORDER BY League_season_id, strength_level, rank_position
