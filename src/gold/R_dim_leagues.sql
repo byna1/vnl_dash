@@ -12,7 +12,13 @@ tb_leagues AS (
         t1.league_id AS league_id,
         TRIM(REPLACE(t1.league_name, 'Women', '')) AS league_name,
         COALESCE(t2.real_country_code, 'World') AS country_id,
-        CASE WHEN t1.league_name LIKE '%Women%' THEN 'Women' ELSE 'Men' END AS league_naipe
+        CASE 
+            WHEN t1.league_name LIKE '%Women%' THEN 'Women' 
+            WHEN t1.league_name LIKE '%Femenina%' THEN 'Women'
+            WHEN t1.league_name LIKE '%Female%' THEN 'Women'
+            WHEN t1.league_name LIKE '%Feminina%' THEN 'Women' 
+        ELSE 'Men' 
+        END AS league_naipe
     FROM leagues t1
     LEFT JOIN league_country t2
         ON t1.league_id = t2.league_id

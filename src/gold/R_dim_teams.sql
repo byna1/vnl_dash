@@ -1,17 +1,26 @@
 WITH melted AS (
-    SELECT homeTeam_id AS team_id, country_code AS liga_code FROM matches
+    SELECT homeTeam_id AS team_id,
+    league_id,
+    country_code AS liga_code 
+    FROM matches
     UNION ALL
-    SELECT awayTeam_id AS team_id, country_code AS liga_code FROM matches
+    SELECT awayTeam_id AS team_id,
+    league_id, 
+    country_code AS liga_code 
+    FROM matches
 ),
 
 team_country AS (
     SELECT
+        t3.league_name,
         t1.team_id,
         MAX(t2.country_code) AS country_code
     FROM melted t1
     LEFT JOIN countries t2
         ON t1.liga_code = t2.country_code
         AND t2.country_name NOT IN ('World','Europe','South America','North America','Africa','Oceania')
+    LEFT JOIN leagues t3 
+    ON t1.league_id = t3.league_id
     GROUP BY t1.team_id
 ),
 
@@ -22,7 +31,12 @@ AS
 (SELECT
     t1.team_id AS Team_id,
     TRIM(REPLACE(t1.team_name, 'Women', '')) AS team_name,
-    CASE WHEN t1.team_name LIKE '%Women%' THEN 'Women' ELSE 'Men' END AS team_naipe,
+        CASE 
+            WHEN t2.league_name LIKE '%Women%' THEN 'Women' 
+            WHEN t2.league_name LIKE '%Femenina%' THEN 'Women'
+            WHEN t2.league_name LIKE '%Female%' THEN 'Women'
+            WHEN t2.league_name LIKE '%Feminina%' THEN 'Women' 
+        ELSE 'Men' END AS team_naipe,
     CASE WHEN t3.country_code IS NOT NULL THEN 'National Team' ELSE 'Club' END AS team_type,
     COALESCE(t3.country_code, t2.country_code) AS country_id
 FROM teams t1
@@ -48,4 +62,4 @@ SELECT
     CONCAT(country_id,'_',team_naipe) AS country_naipe_id,
     t1.*
 FROM tb_removed_scope t1
-ORDER BY country_naipe_id
+ORDER BY country_id

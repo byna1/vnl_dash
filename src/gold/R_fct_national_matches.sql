@@ -14,7 +14,9 @@ tb_match AS (
         second_set_home_team_score, second_set_away_team_score,
         third_set_home_team_score,  third_set_away_team_score,
         fourth_set_home_team_score, fourth_set_away_team_score,
-        fifth_set_home_team_score,  fifth_set_away_team_score
+        fifth_set_home_team_score,  fifth_set_away_team_score,
+        country_code,
+        country_name
     FROM matches
     WHERE description = 'Finished'
         AND country_name NOT IN ('Europe','South America','North America','Africa','Oceania')
@@ -44,6 +46,8 @@ tb_join AS (
         t1.Match_id,
         t1.league_season_id,
         t1.match_week,
+        t1.country_name,
+        t1.country_code,
         t1.match_date,
         t1.homeTeam_id,
         t1.awayTeam_id,

@@ -9,7 +9,12 @@ AS
     match_id, 
     league_id, 
     TRIM(league_season) AS league_season,
-    CASE WHEN league_name LIKE '%Women%' THEN 'Women' ELSE 'Men' END AS league_naipe,
+    CASE 
+            WHEN league_name LIKE '%Women%' THEN 'Women' 
+            WHEN league_name LIKE '%Femenina%' THEN 'Women'
+            WHEN league_name LIKE '%Female%' THEN 'Women'
+            WHEN league_name LIKE '%Feminina%' THEN 'Women' 
+    ELSE 'Men' END AS league_naipe,
     match_week, 
     homeTeam_id, 
     awayTeam_id,
